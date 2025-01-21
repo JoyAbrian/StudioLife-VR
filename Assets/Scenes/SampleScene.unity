@@ -975,11 +975,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Categories:
   - Name: Living Room
-    FurnitureItems: []
+    FurnitureItems:
+    - {fileID: 6889877554060397392, guid: 544e2a3365ece1e428837232ca8b768d, type: 3}
+    - {fileID: 1868148460928496882, guid: 29eb9cdec523f4944b46fcfae81dc9c8, type: 3}
+    - {fileID: 2665385465093686497, guid: 658e64758890bc24ba679c51e2cd2ab3, type: 3}
+    - {fileID: 22300645180604445, guid: d46fa1eeedbcb0e41b8c735b2594b434, type: 3}
+    - {fileID: 1487326640667925142, guid: 266d5a1d00e2ac2479b93bdd1914ad78, type: 3}
+    - {fileID: -4124324956659108564, guid: 8c62e0f64b2956748ab5f5ece60bc90c, type: 3}
+    - {fileID: -4106910704053476091, guid: 85e9540880fc7824c8aff31eb2cc6498, type: 3}
+    - {fileID: 2861604707802951900, guid: 7699f5af06713974ba61777a8a830f6e, type: 3}
+    - {fileID: -4001219524043917238, guid: 88eb65b4dea685a4cad7ad664104b001, type: 3}
+    - {fileID: 5405311967514084100, guid: 8949b4a88fb989e4483115e02dfafc96, type: 3}
+    - {fileID: 7226509344755591931, guid: 54a1d2aa299948d4386f320102e514a9, type: 3}
+    - {fileID: 222481642999560977, guid: 355f0f3f8c2463f4d8bed401784f063f, type: 3}
+    - {fileID: -2537276628716647604, guid: 3f867dd7956e96f4a90edce652fc7512, type: 3}
+    - {fileID: 4998211934334940289, guid: 372a0d77e8005d947bd72f3cf2cbde53, type: 3}
   - Name: Bedroom
-    FurnitureItems: []
+    FurnitureItems:
+    - {fileID: 2040224802602919991, guid: bd82980ec0e466d48a84803eba02265f, type: 3}
+    - {fileID: 8010796077552963992, guid: 8af73887c9cd7fa47a2f642969b20378, type: 3}
+    - {fileID: 8458208193706659960, guid: 79723f7a04c42fa4cb0fefb4f7686381, type: 3}
+    - {fileID: 7366761863802724186, guid: 7769b6e68c1a90a458fec4955db6b2fd, type: 3}
+    - {fileID: 3909218253749884958, guid: 3f38091ec14910c4c8b8af3bab31b1bf, type: 3}
+    - {fileID: 8484874041389379184, guid: c15f037642a1e1b439d19869e86e1ddf, type: 3}
+    - {fileID: 7714876331384470527, guid: 28f3f85a3fb032b4cbee99b8dd59df44, type: 3}
   - Name: Kitchen
-    FurnitureItems: []
+    FurnitureItems:
+    - {fileID: 497763988663127253, guid: 226aa234041d2be48881aab9632ea78e, type: 3}
+    - {fileID: 3535889014668544730, guid: d9d9f374cc51a6b4fb75751346d70b83, type: 3}
+    - {fileID: 4734582472565332977, guid: 1a83256f7767c2c46a1371969648490c, type: 3}
+    - {fileID: -1002103295754397343, guid: 798cab9a237d184479fa2e6d3e55fb57, type: 3}
+    - {fileID: 7990113113561719479, guid: 48e9669af95ae5746aa4ad24d893f391, type: 3}
+    - {fileID: 4099980517783977011, guid: f072b6d5974d6a14da67d1db1cd20b92, type: 3}
+    - {fileID: 7368893362301289963, guid: d2d91ff190ebafa41b8fa852ad4c0f8c, type: 3}
+    - {fileID: 9119537987914355285, guid: af872b04269986143906a126ca9ff444, type: 3}
+    - {fileID: -4398256169098729092, guid: 4c6a5e5423a8c2a41ac136b50710c436, type: 3}
+    - {fileID: 3164070202017537221, guid: 36510e737e626954986f2c5112be9091, type: 3}
+    - {fileID: 572873519256356292, guid: b9f258a086096d24aa7861fa20deed65, type: 3}
+    - {fileID: -3917151238317086149, guid: add8565ea42029f4abfaa37c7dbe2abf, type: 3}
+    - {fileID: -6016574753337404519, guid: 452921da7fe17904da8c1d34c235dee4, type: 3}
   - Name: Bathroom
     FurnitureItems:
     - {fileID: 5182259735893618784, guid: cb533d6f7329a744fb5c0396de1b8b4b, type: 3}
@@ -988,7 +1022,22 @@ MonoBehaviour:
     - {fileID: 3278775105551503417, guid: 811e6e74b6e3af9468ee8cf92013ce83, type: 3}
     - {fileID: 8557084167061322938, guid: 10d4ee2e07ed6c043bcfb109fd37b49a, type: 3}
   - Name: Wine Room
-    FurnitureItems: []
+    FurnitureItems:
+    - {fileID: 7877172514464874131, guid: 71546b2097e63004893a3528d003a956, type: 3}
+    - {fileID: 5717796456266827118, guid: 16309159579d34a4c92f5e68f4824d8b, type: 3}
+    - {fileID: -98091149476377430, guid: 86ae21e881865b04f8548c4edade5fd2, type: 3}
+    - {fileID: -6315555325163840486, guid: 929be27b7388507448e23941feba1828, type: 3}
+    - {fileID: 4759470246256533131, guid: 8915be8858dae144eb1415e1fada3eda, type: 3}
+    - {fileID: -6077227151321040243, guid: 4c9bf42b955bc1a4b83f6740aea218cb, type: 3}
+    - {fileID: -3778013674315396175, guid: f0f8347ddc1d5ed4bb8d2379f9008300, type: 3}
+    - {fileID: -1252009959949045467, guid: d17c15e72c29a9f49879ff3b971bd44c, type: 3}
+    - {fileID: 5311516442114448319, guid: 6b094143198273d43b21bd5b1dd0b3c3, type: 3}
+    - {fileID: 8774578597586155283, guid: 50f7395fbbcbfff47b55a68bd9ca5773, type: 3}
+    - {fileID: 3078165157326805228, guid: f193bec3a0b87ca45a9dc2e7af25e968, type: 3}
+    - {fileID: 1686142138834972685, guid: 3d51d280e33c5fe4c97ae593c2292997, type: 3}
+    - {fileID: -7795298759031352171, guid: aa765da573f752d409b64961b914353f, type: 3}
+    - {fileID: -616763327237239422, guid: 2e2398df6726e164fb29cbffecf878a0, type: 3}
+    - {fileID: -1222386516804723801, guid: 843e4058e4b291d44bc18a16bdfae4a2, type: 3}
   FurnitureContent: {fileID: 456165818}
   FurniturePrefabDisplay: {fileID: 4671770088895882958, guid: 9a71c4434784b6f4ab63a3b44d90399c, type: 3}
   SubmenuButtons:
@@ -1758,7 +1807,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 63393f09743cd944d90c8d67ba1cde20, type: 2}
+  - {fileID: 2100000, guid: 0656c89128e147645951f2c0649b10f9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2265,8 +2314,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1858264855}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.23741058, y: 0.36930066, z: -0.098174706, w: -0.893093}
-  m_LocalPosition: {x: 2.739795, y: 3.5730777, z: -2.9221795}
+  m_LocalRotation: {x: -0.2374422, y: 0.3565766, z: -0.09420272, w: -0.8986658}
+  m_LocalPosition: {x: 3.4149897, y: 3.815993, z: -3.5665696}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
