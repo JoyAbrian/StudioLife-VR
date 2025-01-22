@@ -223,7 +223,7 @@ GameObject:
   - component: {fileID: 5949379768779338922}
   - component: {fileID: 1243834167523773520}
   - component: {fileID: 249382525861626230}
-  - component: {fileID: 363933756064477743}
+  - component: {fileID: 8914413942536217897}
   m_Layer: 5
   m_Name: TextureDisplay
   m_TagString: Untagged
@@ -335,7 +335,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &363933756064477743
+--- !u!114 &8914413942536217897
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -344,7 +344,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4671770088895882958}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f15f08480e5f2c4da1e1e50a26ab28d, type: 3}
+  m_Script: {fileID: 11500000, guid: b167a5f4acfd0ed4ead463c82de21982, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   IconImage: {fileID: 86766517539458016}

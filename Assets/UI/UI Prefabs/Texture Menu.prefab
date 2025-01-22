@@ -734,6 +734,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4308310741520363794}
+  - component: {fileID: 7959953525753358668}
   m_Layer: 5
   m_Name: TextureMenuManager
   m_TagString: Untagged
@@ -760,6 +761,48 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &7959953525753358668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082165729595338393}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90c9d0ade1aaadc448e8486c08f6de24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Categories:
+  - Name: Floor
+    PaintItems:
+    - {fileID: 2936438893179337002, guid: 950131ff36a61c245a4e735b18d62cf0, type: 3}
+    - {fileID: 6709055933796337454, guid: 6aa0d6b3c6283dc49b62bdbae9c9e85c, type: 3}
+    - {fileID: 7939700501060097535, guid: 4e0f0e5f50134d7418e76a39135ce5c6, type: 3}
+    - {fileID: 1428952178447135249, guid: 2c5595b56a783b141b9e4eea318e33c5, type: 3}
+    - {fileID: 3000399441039610531, guid: db28d08788134dd4f9055ab0135e31d2, type: 3}
+    - {fileID: 6134443173895600907, guid: 8f99a492bd38d9a4993d80fe67f74f20, type: 3}
+    - {fileID: 9002344945553686856, guid: ef3776292a5ae734687e4f7378a48bb2, type: 3}
+    - {fileID: 1800920101386093265, guid: 197f8e74ce6eb374e854b19c9645e6d2, type: 3}
+    - {fileID: 7313404311970617669, guid: ca3754dc7a05d224ebef806abc0e71b6, type: 3}
+    - {fileID: 4743292379119387648, guid: 7534620352292e245a0da40429634359, type: 3}
+  - Name: Wall
+    PaintItems:
+    - {fileID: 4326044542883787450, guid: ffb6032d769b56d468c90b030488cad0, type: 3}
+    - {fileID: 6915209432569549207, guid: 6492c96169a3a3c489d77ad291502cd7, type: 3}
+    - {fileID: 6376542719991076456, guid: 7b11e196500c1024b95ce6114e263036, type: 3}
+    - {fileID: 2007171572215651860, guid: 7d23065704623a6438d70cc83cb8460b, type: 3}
+    - {fileID: 4699645968162584639, guid: f407119011c21b34a84f745e92b33897, type: 3}
+    - {fileID: 3910202723505667019, guid: 42e8660f6962d4a43a0f721439a3d5f0, type: 3}
+    - {fileID: 3592806540793981962, guid: 57a1e2caeeb86da4783c9711e9fb2dd3, type: 3}
+    - {fileID: 4832515931217821689, guid: b4b7cbc2cad1a874582fd6a17a1cc3fc, type: 3}
+    - {fileID: 4176214255866963105, guid: 7bc3a1ffa80321f4795db5be930f5689, type: 3}
+    - {fileID: 8145365229305517242, guid: 4a34a3fa21d08d845834ae60eb943cc5, type: 3}
+  PaintContent: {fileID: 5637686140068818247}
+  PaintPrefabDisplay: {fileID: 4671770088895882958, guid: 69d847752a32c894b92d44488eecf91b, type: 3}
+  SubmenuButtons:
+  - {fileID: 4501871597570395322}
+  - {fileID: 2601970462144526554}
 --- !u!1 &7517928607982227609
 GameObject:
   m_ObjectHideFlags: 0

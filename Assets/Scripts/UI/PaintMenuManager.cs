@@ -2,21 +2,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class FurnitureMenuManager : MonoBehaviour
+public class PaintMenuManager : MonoBehaviour
 {
     [System.Serializable]
-    public class FurnitureCategory
+    public class PaintCategory
     {
         public string Name;
-        public List<Furniture> FurnitureItems;
+        public List<Paint> PaintItems;
     }
 
     [Header("Categories")]
-    public List<FurnitureCategory> Categories;
+    public List<PaintCategory> Categories;
 
     [Header("UI Elements")]
-    public Transform FurnitureContent;
-    public GameObject FurniturePrefabDisplay;
+    public Transform PaintContent;
+    public GameObject PaintPrefabDisplay;
     public Button[] SubmenuButtons;
 
     private void Start()
@@ -29,10 +29,9 @@ public class FurnitureMenuManager : MonoBehaviour
 
         ShowFurnitureMenu(0);
     }
-
     public void ShowFurnitureMenu(int categoryIndex)
     {
-        foreach (Transform child in FurnitureContent)
+        foreach (Transform child in PaintContent)
         {
             Destroy(child.gameObject);
         }
@@ -40,23 +39,23 @@ public class FurnitureMenuManager : MonoBehaviour
         if (categoryIndex < 0 || categoryIndex >= Categories.Count) return;
         var selectedCategory = Categories[categoryIndex];
 
-        foreach (var furniture in selectedCategory.FurnitureItems)
+        foreach (var paint in selectedCategory.PaintItems)
         {
-            GameObject item = Instantiate(FurniturePrefabDisplay, FurnitureContent);
-            FurnitureDisplay display = item.GetComponent<FurnitureDisplay>();
-            display.SetFurniture(furniture);
+            GameObject item = Instantiate(PaintPrefabDisplay, PaintContent);
+            PaintDisplay display = item.GetComponent<PaintDisplay>();
+            display.SetPaint(paint);
 
             Button itemButton = item.GetComponent<Button>();
             if (itemButton != null)
             {
-                itemButton.onClick.AddListener(() => SelectFurniture(furniture));
+                itemButton.onClick.AddListener(() => SelectPaint(paint));
             }
         }
     }
 
-    private void SelectFurniture(Furniture furniture)
+    private void SelectPaint(Paint paint)
     {
-        Debug.Log($"Selected furniture: {furniture.FurnitureName} - ${furniture.Price:F2}");
-        // Implement logic to spawn or apply furniture in the scene
+        Debug.Log($"Selected paint: {paint.PaintName} - ${paint.Price:F2}");
+        // Implement logic to apply paint in the scene
     }
 }
