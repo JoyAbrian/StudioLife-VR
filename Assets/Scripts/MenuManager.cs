@@ -3,33 +3,76 @@ using UnityEngine.InputSystem;
 
 public class MenuManager : MonoBehaviour
 {
+    [Header("Furniture Menu")]
     public GameObject FurnitureMenu;
-    public InputActionReference ToggleMenuAction;
+    public InputActionReference ToggleOpenFurnitureMenu;
 
-    private bool isMenuVisible = false;
+    [Header("Texture Menu")]
+    public GameObject TextureMenu;
+    public InputActionReference ToggleOpenTextureMenu;
+
+    private bool isFurnitureMenuVisible = false;
+    private bool isTextureMenuVisible = false;
 
     private void OnEnable()
     {
-        ToggleMenuAction.action.performed += OnToggleMenu;
+        ToggleOpenFurnitureMenu.action.performed += ToggleFurnitureMenu;
+        ToggleOpenTextureMenu.action.performed += ToggleTextureMenu;
     }
 
     private void OnDisable()
     {
-        ToggleMenuAction.action.performed -= OnToggleMenu;
+        ToggleOpenFurnitureMenu.action.performed -= ToggleFurnitureMenu;
+        ToggleOpenTextureMenu.action.performed -= ToggleTextureMenu;
     }
 
-    private void OnToggleMenu(InputAction.CallbackContext context)
+    private void ToggleFurnitureMenu(InputAction.CallbackContext context)
     {
-        isMenuVisible = !isMenuVisible;
-        FurnitureMenu.SetActive(isMenuVisible);
+        if (isFurnitureMenuVisible)
+        {
+            isFurnitureMenuVisible = false;
+            UpdateMenuVisibility(FurnitureMenu, isFurnitureMenuVisible);
+        }
+        else
+        {
+            isTextureMenuVisible = false;
+            UpdateMenuVisibility(TextureMenu, isTextureMenuVisible);
 
-        if (isMenuVisible)
+            isFurnitureMenuVisible = true;
+            UpdateMenuVisibility(FurnitureMenu, isFurnitureMenuVisible);
+        }
+    }
+
+    private void ToggleTextureMenu(InputAction.CallbackContext context)
+    {
+        if (isTextureMenuVisible)
+        {
+            isTextureMenuVisible = false;
+            UpdateMenuVisibility(TextureMenu, isTextureMenuVisible);
+        }
+        else
+        {
+            isFurnitureMenuVisible = false;
+            UpdateMenuVisibility(FurnitureMenu, isFurnitureMenuVisible);
+
+            isTextureMenuVisible = true;
+            UpdateMenuVisibility(TextureMenu, isTextureMenuVisible);
+        }
+    }
+
+    private void UpdateMenuVisibility(GameObject menu, bool isVisible)
+    {
+        if (menu == null) return;
+
+        menu.SetActive(isVisible);
+
+        if (isVisible)
         {
             Vector3 targetPosition = Camera.main.transform.position + Camera.main.transform.forward * 1.5f;
-            FurnitureMenu.transform.position = targetPosition;
+            menu.transform.position = targetPosition;
 
-            FurnitureMenu.transform.LookAt(Camera.main.transform);
-            FurnitureMenu.transform.Rotate(0, 180, 0);
+            menu.transform.LookAt(Camera.main.transform);
+            menu.transform.Rotate(0, 180, 0);
         }
     }
 }
