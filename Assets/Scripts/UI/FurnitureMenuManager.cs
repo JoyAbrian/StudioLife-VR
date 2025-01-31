@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 public class FurnitureMenuManager : MonoBehaviour
 {
+    public FurniturePlacer FurniturePlacer;
     [System.Serializable]
     public class FurnitureCategory
     {
@@ -56,7 +57,6 @@ public class FurnitureMenuManager : MonoBehaviour
 
     private void SelectFurniture(Furniture furniture)
     {
-        Debug.Log($"Selected furniture: {furniture.FurnitureName} - ${furniture.Price:F2}");
-        // Implement logic to spawn or apply furniture in the scene
+        FurniturePlacer.SetSelectedFurniture(furniture);
     }
 }
