@@ -343,7 +343,6 @@ GameObject:
   - component: {fileID: 4131369911782832}
   - component: {fileID: 33865895670841806}
   - component: {fileID: 23440644837380098}
-  - component: {fileID: 64486584679873608}
   m_Layer: 3
   m_Name: Side Cab 01
   m_TagString: Untagged
@@ -419,28 +418,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64486584679873608
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1699924444456148}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 5a1710e01a2c88242a4499f68198d1f7, type: 3}
 --- !u!1 &1742262100060424
 GameObject:
   m_ObjectHideFlags: 0
@@ -452,7 +429,6 @@ GameObject:
   - component: {fileID: 4135517745974238}
   - component: {fileID: 33826710192232692}
   - component: {fileID: 23441006114196624}
-  - component: {fileID: 64998425866348356}
   m_Layer: 3
   m_Name: Tower Cab 01
   m_TagString: Untagged
@@ -526,28 +502,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64998425866348356
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1742262100060424}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300010, guid: 5a1710e01a2c88242a4499f68198d1f7, type: 3}
 --- !u!1 &1754850717744738
 GameObject:
   m_ObjectHideFlags: 0
@@ -641,7 +595,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4559688854973160}
-  - component: {fileID: 65267512378120534}
   m_Layer: 3
   m_Name: Drawer 01
   m_TagString: Untagged
@@ -665,27 +618,6 @@ Transform:
   - {fileID: 4348901489428828}
   m_Father: {fileID: 4131369911782832}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &65267512378120534
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1843572879092054}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.67959714, y: 0.2101264, z: 0.8052343}
-  m_Center: {x: -0.0024707317, y: 1.1368883, z: 0.0221712}
 --- !u!1 &1992068831304034
 GameObject:
   m_ObjectHideFlags: 0
@@ -696,6 +628,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4673281175129516}
   - component: {fileID: 8774578597586155283}
+  - component: {fileID: 6896826104981360646}
   m_Layer: 3
   m_Name: BarCabinet_Apt_02_Tower
   m_TagString: Untagged
@@ -738,3 +671,24 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 128
+--- !u!65 &6896826104981360646
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992068831304034}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.84, y: 2.61, z: 0.81}
+  m_Center: {x: 0, y: 1.33, z: 0.04}

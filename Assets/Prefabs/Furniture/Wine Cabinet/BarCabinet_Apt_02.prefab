@@ -92,7 +92,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4494614911623072}
-  - component: {fileID: 65337478090850392}
   m_Layer: 3
   m_Name: Drawer 04
   m_TagString: Untagged
@@ -116,27 +115,6 @@ Transform:
   - {fileID: 4995665355564154}
   m_Father: {fileID: 4710623973681620}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &65337478090850392
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1021996528681916}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.67959714, y: 0.2101264, z: 0.8052343}
-  m_Center: {x: -0.0024707317, y: 1.1368883, z: 0.0221712}
 --- !u!1 &1023396389845388
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,7 +238,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4920603568497380}
-  - component: {fileID: 65084044335890124}
   m_Layer: 3
   m_Name: Drawer 02
   m_TagString: Untagged
@@ -284,27 +261,6 @@ Transform:
   - {fileID: 4895308693428246}
   m_Father: {fileID: 4212997031055398}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &65084044335890124
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1114457674734194}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6575868, y: 0.2101264, z: 0.8052343}
-  m_Center: {x: 0.33465374, y: 1.1368883, z: 0.0221712}
 --- !u!1 &1130792303883118
 GameObject:
   m_ObjectHideFlags: 0
@@ -564,7 +520,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4176592981221314}
-  - component: {fileID: 65389383451490432}
   m_Layer: 3
   m_Name: Drawer 03
   m_TagString: Untagged
@@ -588,27 +543,6 @@ Transform:
   - {fileID: 4278653486455960}
   m_Father: {fileID: 4212997031055398}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &65389383451490432
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1348360049235866}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.65755844, y: 0.2101264, z: 0.8052343}
-  m_Center: {x: -0.3335836, y: 1.1368883, z: 0.0221712}
 --- !u!1 &1350067096500786
 GameObject:
   m_ObjectHideFlags: 0
@@ -977,7 +911,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4498113083460528}
-  - component: {fileID: 65578093433369810}
   m_Layer: 3
   m_Name: Drawer 01
   m_TagString: Untagged
@@ -1001,27 +934,6 @@ Transform:
   - {fileID: 4372014728571048}
   m_Father: {fileID: 4951174250177740}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &65578093433369810
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1408217043572328}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.67959714, y: 0.2101264, z: 0.8052343}
-  m_Center: {x: -0.0024707317, y: 1.1368883, z: 0.0221712}
 --- !u!1 &1414543318599716
 GameObject:
   m_ObjectHideFlags: 0
@@ -1033,7 +945,6 @@ GameObject:
   - component: {fileID: 4457905370903004}
   - component: {fileID: 33566663339137936}
   - component: {fileID: 23433032600317192}
-  - component: {fileID: 65487711075300256}
   m_Layer: 3
   m_Name: Center Counter
   m_TagString: Untagged
@@ -1107,27 +1018,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &65487711075300256
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1414543318599716}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.4644037, y: 0.039458033, z: 0.7849608}
-  m_Center: {x: -0.00000011920929, y: 0.019729016, z: -1.4018225e-16}
 --- !u!1 &1591488729204338
 GameObject:
   m_ObjectHideFlags: 0
@@ -1661,6 +1551,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4559520821318574}
   - component: {fileID: -98091149476377430}
+  - component: {fileID: 5659470098424510351}
   m_Layer: 3
   m_Name: BarCabinet_Apt_02
   m_TagString: Untagged
@@ -1706,6 +1597,27 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 128
+--- !u!65 &5659470098424510351
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833201903571742}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.12, y: 2.59, z: 0.78}
+  m_Center: {x: 0, y: 1.36, z: 0}
 --- !u!1 &1833556844154742
 GameObject:
   m_ObjectHideFlags: 0
@@ -1717,7 +1629,6 @@ GameObject:
   - component: {fileID: 4212997031055398}
   - component: {fileID: 33379927040518472}
   - component: {fileID: 23880738661743088}
-  - component: {fileID: 64604880216169356}
   m_Layer: 3
   m_Name: Center Cabinet
   m_TagString: Untagged
@@ -1795,28 +1706,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64604880216169356
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1833556844154742}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300014, guid: 5a1710e01a2c88242a4499f68198d1f7, type: 3}
 --- !u!1 &1834686051530860
 GameObject:
   m_ObjectHideFlags: 0

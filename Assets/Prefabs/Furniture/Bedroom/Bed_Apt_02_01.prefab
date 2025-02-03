@@ -93,8 +93,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2302305627258387642}
-  - component: {fileID: 2302305627258387645}
-  - component: {fileID: 2302305627258387643}
   m_Layer: 3
   m_Name: Drawer_L
   m_TagString: Untagged
@@ -118,48 +116,6 @@ Transform:
   - {fileID: 6464807786043407817}
   m_Father: {fileID: 2302305627536529538}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &2302305627258387645
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2302305627258387641}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.6025672, y: 0.2636171, z: 0.08435202}
-  m_Center: {x: 0.84, y: 0.18706265, z: 0.58}
---- !u!95 &2302305627258387643
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2302305627258387641}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: dc24fcef3393733459eaad6c68ba9bc6, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2302305627513817226
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,8 +125,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2302305627513817227}
-  - component: {fileID: 2302305627513817230}
-  - component: {fileID: 2302305627513817229}
   m_Layer: 3
   m_Name: Drawer_R
   m_TagString: Untagged
@@ -194,48 +148,6 @@ Transform:
   - {fileID: 5720241602834145110}
   m_Father: {fileID: 2302305627536529538}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &2302305627513817230
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2302305627513817226}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.6025672, y: 0.2636171, z: 0.08435202}
-  m_Center: {x: 0.85352767, y: 0.18706265, z: 1.558624}
---- !u!95 &2302305627513817229
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2302305627513817226}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e20d80aafd5329a4897333eebe043b04, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &2302305627536529537
 GameObject:
   m_ObjectHideFlags: 0
@@ -280,7 +192,6 @@ GameObject:
   - component: {fileID: 5349074696188193043}
   - component: {fileID: 7957768472258639366}
   - component: {fileID: 7977208538458744065}
-  - component: {fileID: 4721157838418399922}
   m_Layer: 3
   m_Name: Pillow_Apt_01.002
   m_TagString: Untagged
@@ -353,27 +264,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4721157838418399922
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4721157838418399921}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9002668, y: 0.30814725, z: 1.460786}
-  m_Center: {x: -1.0479516e-22, y: -0.000000052154064, z: 0.00000047683716}
 --- !u!1 &4806556609691728875
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,7 +275,6 @@ GameObject:
   - component: {fileID: 6664879690444892725}
   - component: {fileID: 5675573366918399062}
   - component: {fileID: 4033721698639269218}
-  - component: {fileID: 4806556609691728876}
   m_Layer: 3
   m_Name: Mattress
   m_TagString: Untagged
@@ -461,27 +350,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4806556609691728876
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4806556609691728875}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 3.4096804, y: 0.43438128, z: 3.1481352}
-  m_Center: {x: -0.0000009536743, y: 0, z: 0}
 --- !u!1 &6091485820298361347
 GameObject:
   m_ObjectHideFlags: 0
@@ -743,9 +611,8 @@ GameObject:
   - component: {fileID: 9114258171423167242}
   - component: {fileID: 4102728439763997548}
   - component: {fileID: 187172125052320357}
-  - component: {fileID: 6998527035024098074}
-  - component: {fileID: 6998527035024098073}
   - component: {fileID: 8458208193706659960}
+  - component: {fileID: 8718467366977649009}
   m_Layer: 3
   m_Name: Bed_Apt_02_01
   m_TagString: Untagged
@@ -821,48 +688,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6998527035024098074
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6998527035024098072}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 3.599731, y: 0.0638216, z: 3.1481352}
-  m_Center: {x: -0.088412285, y: 0.03191068, z: 0.0000002384186}
---- !u!65 &6998527035024098073
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6998527035024098072}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.19950223, y: 1.7988955, z: 3.1481352}
-  m_Center: {x: -1.7885267, y: 0.8994476, z: 0.00000023841878}
 --- !u!114 &8458208193706659960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -881,6 +706,27 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 128
+--- !u!65 &8718467366977649009
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6998527035024098072}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.599731, y: 1.7988955, z: 3.1481352}
+  m_Center: {x: -0.08841139, y: 0.8994476, z: 0.00000017881393}
 --- !u!1 &7892085742027063612
 GameObject:
   m_ObjectHideFlags: 0
@@ -892,7 +738,6 @@ GameObject:
   - component: {fileID: 5150314260282407531}
   - component: {fileID: 3482024526280217889}
   - component: {fileID: 1028410820556702150}
-  - component: {fileID: 7892085742027063613}
   m_Layer: 3
   m_Name: Pillow_Apt_01.001
   m_TagString: Untagged
@@ -965,27 +810,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7892085742027063613
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7892085742027063612}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.9002668, y: 0.30814725, z: 1.460786}
-  m_Center: {x: -1.0479516e-22, y: -0.00000017136335, z: 0.00000023841858}
 --- !u!1 &8729703060127603101
 GameObject:
   m_ObjectHideFlags: 0

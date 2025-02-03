@@ -11,10 +11,8 @@ GameObject:
   - component: {fileID: 2904759710050852468}
   - component: {fileID: 5978972813687960342}
   - component: {fileID: 6374088242053317381}
-  - component: {fileID: 1581601269312796937}
-  - component: {fileID: 2139886450098864045}
-  - component: {fileID: 8895706528408452199}
   - component: {fileID: 7877172514464874131}
+  - component: {fileID: 4213256999659274568}
   m_Layer: 3
   m_Name: BarCabinet_Apt_01
   m_TagString: Untagged
@@ -88,69 +86,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1581601269312796937
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6381209342085706937}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.74937534, y: 0.06933603, z: 0.97244453}
-  m_Center: {x: 0.017882347, y: 0.034668013, z: -0.000000059604645}
---- !u!65 &2139886450098864045
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6381209342085706937}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.74937534, y: 0.026907265, z: 0.79}
-  m_Center: {x: 0.017882347, y: 0.8, z: -0.000000059604645}
---- !u!65 &8895706528408452199
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6381209342085706937}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.74937534, y: 0.043084145, z: 0.97244453}
-  m_Center: {x: 0.017882347, y: 1.5322673, z: -0.000000059604645}
 --- !u!114 &7877172514464874131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -169,6 +104,27 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 128
+--- !u!65 &4213256999659274568
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6381209342085706937}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.74937534, y: 1.5538093, z: 0.97244453}
+  m_Center: {x: 0.017882347, y: 0.77690464, z: -0.000000044703484}
 --- !u!1 &6468753294627643112
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,7 +301,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7595908708344871686}
-  - component: {fileID: 6492364185780223023}
   m_Layer: 3
   m_Name: Drawer
   m_TagString: Untagged
@@ -369,24 +324,3 @@ Transform:
   - {fileID: 7253341085123616560}
   m_Father: {fileID: 2904759710050852468}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &6492364185780223023
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8120903112688207566}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.060000002, y: 0.1972804, z: 0.76}
-  m_Center: {x: 0.3, y: 1.3484166, z: 9.341716e-15}

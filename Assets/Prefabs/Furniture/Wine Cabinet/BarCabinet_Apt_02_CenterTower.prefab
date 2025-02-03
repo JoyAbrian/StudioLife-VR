@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4016716938541968}
-  - component: {fileID: 65683114059547554}
   m_Layer: 3
   m_Name: Drawer 01
   m_TagString: Untagged
@@ -33,27 +32,6 @@ Transform:
   - {fileID: 4593362636814754}
   m_Father: {fileID: 4927251037246802}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &65683114059547554
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1003533800101754}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.67959714, y: 0.2101264, z: 0.8052343}
-  m_Center: {x: -0.0024707317, y: 1.1368883, z: 0.0221712}
 --- !u!1 &1007903400620450
 GameObject:
   m_ObjectHideFlags: 0
@@ -314,6 +292,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4354603235021132}
   - component: {fileID: -3778013674315396175}
+  - component: {fileID: 757195483173858623}
   m_Layer: 3
   m_Name: BarCabinet_Apt_02_CenterTower
   m_TagString: Untagged
@@ -357,6 +336,27 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 128
+--- !u!65 &757195483173858623
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134232648000790}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.29, y: 2.7, z: 0.78}
+  m_Center: {x: 0.4, y: 1.34, z: 0}
 --- !u!1 &1160622523854244
 GameObject:
   m_ObjectHideFlags: 0
@@ -700,7 +700,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4979979360131438}
-  - component: {fileID: 65305937841895192}
   m_Layer: 3
   m_Name: Drawer 02
   m_TagString: Untagged
@@ -724,27 +723,6 @@ Transform:
   - {fileID: 4065870166642954}
   m_Father: {fileID: 4803345737638292}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &65305937841895192
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1528051976087128}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.65333223, y: 0.2101264, z: 0.8052343}
-  m_Center: {x: 0.33165503, y: 1.1368883, z: 0.0221712}
 --- !u!1 &1544438230093158
 GameObject:
   m_ObjectHideFlags: 0
@@ -756,7 +734,6 @@ GameObject:
   - component: {fileID: 4547124535939254}
   - component: {fileID: 33220027278609580}
   - component: {fileID: 23863583453616222}
-  - component: {fileID: 64626595824085400}
   m_Layer: 3
   m_Name: Tower Cab 01
   m_TagString: Untagged
@@ -830,28 +807,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64626595824085400
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1544438230093158}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300010, guid: 5a1710e01a2c88242a4499f68198d1f7, type: 3}
 --- !u!1 &1580807686626800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1029,7 +984,6 @@ GameObject:
   - component: {fileID: 4803345737638292}
   - component: {fileID: 33240153494156198}
   - component: {fileID: 23653225688368062}
-  - component: {fileID: 64229797333247226}
   m_Layer: 3
   m_Name: Center Cabinet
   m_TagString: Untagged
@@ -1107,28 +1061,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64229797333247226
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1604390526324612}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300014, guid: 5a1710e01a2c88242a4499f68198d1f7, type: 3}
 --- !u!1 &1624376897700920
 GameObject:
   m_ObjectHideFlags: 0
@@ -1223,7 +1155,6 @@ GameObject:
   - component: {fileID: 4927251037246802}
   - component: {fileID: 33647358983160486}
   - component: {fileID: 23059527663825460}
-  - component: {fileID: 64093802640025582}
   m_Layer: 3
   m_Name: Side Cab 01
   m_TagString: Untagged
@@ -1299,28 +1230,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64093802640025582
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1664225884042130}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 5a1710e01a2c88242a4499f68198d1f7, type: 3}
 --- !u!1 &1682513269702590
 GameObject:
   m_ObjectHideFlags: 0
@@ -1413,7 +1322,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4781499420366578}
-  - component: {fileID: 65872383583384644}
   m_Layer: 3
   m_Name: Drawer 03
   m_TagString: Untagged
@@ -1437,27 +1345,6 @@ Transform:
   - {fileID: 4199008332291082}
   m_Father: {fileID: 4803345737638292}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &65872383583384644
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1741239294208644}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6570847, y: 0.2101264, z: 0.8052343}
-  m_Center: {x: -0.3335427, y: 1.1368883, z: 0.0221712}
 --- !u!1 &1778747378729118
 GameObject:
   m_ObjectHideFlags: 0
@@ -1469,7 +1356,6 @@ GameObject:
   - component: {fileID: 4420139615457172}
   - component: {fileID: 33543688383272390}
   - component: {fileID: 23770787196463854}
-  - component: {fileID: 65589436301719272}
   m_Layer: 3
   m_Name: Center Counter
   m_TagString: Untagged
@@ -1542,24 +1428,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &65589436301719272
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1778747378729118}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.4644037, y: 0.039458033, z: 0.7849608}
-  m_Center: {x: -1.3021535e-16, y: 0.019728897, z: -1.4018225e-16}

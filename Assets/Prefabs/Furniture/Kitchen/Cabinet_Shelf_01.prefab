@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 1053357380960435366}
   - component: {fileID: 3030326202780809329}
   - component: {fileID: 3788386925520470094}
-  - component: {fileID: 2429950304865375160}
   - component: {fileID: -1002103295754397343}
+  - component: {fileID: 3381267151467593063}
   m_Layer: 3
   m_Name: Cabinet_Shelf_01
   m_TagString: Untagged
@@ -85,7 +85,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2429950304865375160
+--- !u!114 &-1002103295754397343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5877209137055616192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7c615754bba084086685ec2fb7af53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FurnitureName: Cabinet Shelf
+  Icon: {fileID: 21300000, guid: bdc047f631d62c843bd0e000c7ac2fac, type: 3}
+  Price: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 128
+--- !u!65 &3381267151467593063
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -106,21 +124,3 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.5366868, y: 0.06971628, z: 1.3611426}
   m_Center: {x: 0.2683431, y: 0.000000067055225, z: 0.00000011920929}
---- !u!114 &-1002103295754397343
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5877209137055616192}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed7c615754bba084086685ec2fb7af53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FurnitureName: Cabinet Shelf
-  Icon: {fileID: 21300000, guid: bdc047f631d62c843bd0e000c7ac2fac, type: 3}
-  Price: 0
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 128

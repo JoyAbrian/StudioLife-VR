@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 834236072630763980}
   - component: {fileID: 2819003326866224866}
   - component: {fileID: 3389543904861626951}
-  - component: {fileID: 1540771278}
   m_Layer: 3
   m_Name: Stove_Top
   m_TagString: Untagged
@@ -92,28 +91,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1540771278
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 272286749509506907}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5065442235521567714, guid: 2a83511a782a6aa4dafed1f5a2bd3803, type: 3}
 --- !u!1 &546295920303254524
 GameObject:
   m_ObjectHideFlags: 0
@@ -540,7 +517,6 @@ GameObject:
   - component: {fileID: 8020132477621189573}
   - component: {fileID: 504567621630045694}
   - component: {fileID: 1074876505209954824}
-  - component: {fileID: 1167171021}
   m_Layer: 3
   m_Name: Stove_Plate
   m_TagString: Untagged
@@ -613,27 +589,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &1167171021
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1596492311643129006}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.7421739, y: 0.035554707, z: 0.35282826}
-  m_Center: {x: 0, y: 0.017777197, z: -0.000000007450581}
 --- !u!1 &1963118065990805654
 GameObject:
   m_ObjectHideFlags: 0
@@ -645,8 +600,8 @@ GameObject:
   - component: {fileID: 1626998783868662017}
   - component: {fileID: 7341034791341516339}
   - component: {fileID: 4592104148129217466}
-  - component: {fileID: 421802172536681978}
   - component: {fileID: -6016574753337404519}
+  - component: {fileID: 1306612662785271266}
   m_Layer: 3
   m_Name: Stove_01
   m_TagString: Untagged
@@ -726,28 +681,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &421802172536681978
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1963118065990805654}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3108728686440193441, guid: 2a83511a782a6aa4dafed1f5a2bd3803, type: 3}
 --- !u!114 &-6016574753337404519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -766,6 +699,27 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 128
+--- !u!65 &1306612662785271266
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963118065990805654}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.89333236, y: 1.285811, z: 1.1117282}
+  m_Center: {x: 0.0014709085, y: 0.6598228, z: -0.00000008940697}
 --- !u!1 &2022917568759226923
 GameObject:
   m_ObjectHideFlags: 0
@@ -1690,7 +1644,6 @@ GameObject:
   - component: {fileID: 7062192254513414373}
   - component: {fileID: 6808494370778432258}
   - component: {fileID: 3408815751114527932}
-  - component: {fileID: 546353385}
   m_Layer: 3
   m_Name: Oven_Door
   m_TagString: Untagged
@@ -1766,27 +1719,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &546353385
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6748149662637936420}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.08918679, y: 0.7990712, z: 1.111728}
-  m_Center: {x: -0.016895091, y: 0.38153547, z: 0.000000029802322}
 --- !u!1 &6985705042509791386
 GameObject:
   m_ObjectHideFlags: 0
@@ -1886,7 +1818,6 @@ GameObject:
   - component: {fileID: 5568514946221588039}
   - component: {fileID: 3980192796136258419}
   - component: {fileID: 6048584107712650905}
-  - component: {fileID: 894398219}
   m_Layer: 3
   m_Name: Stove_Feet
   m_TagString: Untagged
@@ -1959,27 +1890,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &894398219
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7274324110683035209}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.87980926, y: 0.016918022, z: 1.0541214}
-  m_Center: {x: 0, y: 0.008458756, z: 0}
 --- !u!1 &7395133082602004169
 GameObject:
   m_ObjectHideFlags: 0
@@ -2157,7 +2067,6 @@ GameObject:
   - component: {fileID: 6856437745883512651}
   - component: {fileID: 4204023509803459441}
   - component: {fileID: 2493756296591320671}
-  - component: {fileID: 2038714610}
   m_Layer: 3
   m_Name: Broiler_Door
   m_TagString: Untagged
@@ -2231,27 +2140,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &2038714610
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8103463391511757936}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.055396922, y: 0.31826586, z: 1.1117277}
-  m_Center: {x: -0.0000012712553, y: 0.14329246, z: -0.00000035762787}
 --- !u!1 &9151363440673833088
 GameObject:
   m_ObjectHideFlags: 0

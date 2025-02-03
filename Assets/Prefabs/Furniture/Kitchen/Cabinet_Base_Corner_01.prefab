@@ -367,8 +367,8 @@ GameObject:
   - component: {fileID: 9055458756796538670}
   - component: {fileID: 3785760876756273057}
   - component: {fileID: 1913021417504215489}
-  - component: {fileID: 6447363312054082602}
   - component: {fileID: 2763330335675219556}
+  - component: {fileID: 4051529020886486976}
   m_Layer: 3
   m_Name: Cabinet_Base_Corner_01
   m_TagString: Untagged
@@ -444,28 +444,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &6447363312054082602
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5546436795134103488}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 281854930238610966, guid: 2a83511a782a6aa4dafed1f5a2bd3803, type: 3}
 --- !u!114 &2763330335675219556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -484,6 +462,27 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 128
+--- !u!65 &4051529020886486976
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5546436795134103488}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.3615116, y: 1.2954471, z: 1.3615112}
+  m_Center: {x: 0.00018513203, y: 0.6477233, z: 0.00018382072}
 --- !u!1 &8861791055120437142
 GameObject:
   m_ObjectHideFlags: 0

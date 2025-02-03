@@ -260,7 +260,6 @@ GameObject:
   - component: {fileID: 3914551535937374852}
   - component: {fileID: 3906506930406880456}
   - component: {fileID: 3897345040514103382}
-  - component: {fileID: 3937887156350328504}
   m_Layer: 3
   m_Name: Glass.001
   m_TagString: Untagged
@@ -333,28 +332,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3937887156350328504
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3910701996381630050}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300018, guid: 5a3b2c9f5dcc95944b5769d838a747e6, type: 3}
 --- !u!1 &3910725860449725412
 GameObject:
   m_ObjectHideFlags: 0
@@ -366,7 +343,6 @@ GameObject:
   - component: {fileID: 3914729659504642506}
   - component: {fileID: 3907739995156108970}
   - component: {fileID: 3895745884574468536}
-  - component: {fileID: 3937574057382119096}
   m_Layer: 3
   m_Name: Shelf
   m_TagString: Untagged
@@ -439,28 +415,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3937574057382119096
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3910725860449725412}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300020, guid: 5a3b2c9f5dcc95944b5769d838a747e6, type: 3}
 --- !u!1 &3910786251589770460
 GameObject:
   m_ObjectHideFlags: 0
@@ -970,7 +924,6 @@ GameObject:
   - component: {fileID: 3912702884242921366}
   - component: {fileID: 3906512709026209920}
   - component: {fileID: 3897584676475694782}
-  - component: {fileID: 3936316524689635302}
   m_Layer: 3
   m_Name: Glass
   m_TagString: Untagged
@@ -1043,28 +996,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3936316524689635302
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3910919854942136612}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300016, guid: 5a3b2c9f5dcc95944b5769d838a747e6, type: 3}
 --- !u!1 &3910931307900586170
 GameObject:
   m_ObjectHideFlags: 0
@@ -1559,8 +1490,8 @@ GameObject:
   - component: {fileID: 3912694768446276392}
   - component: {fileID: 3906288854796341966}
   - component: {fileID: 3895712644101668968}
-  - component: {fileID: 3938122749217338412}
   - component: {fileID: -616763327237239422}
+  - component: {fileID: 8449625076495440639}
   m_Layer: 3
   m_Name: BarCabinet_Apt_04_Filled
   m_TagString: Untagged
@@ -1644,28 +1575,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3938122749217338412
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3911091001237034764}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 5a3b2c9f5dcc95944b5769d838a747e6, type: 3}
 --- !u!114 &-616763327237239422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1684,6 +1593,27 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 128
+--- !u!65 &8449625076495440639
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3911091001237034764}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.95014405, y: 2.7, z: 0.95014405}
+  m_Center: {x: -0.01346755, y: 1.37, z: 0.013467491}
 --- !u!1 &3911099733433119472
 GameObject:
   m_ObjectHideFlags: 0
@@ -1778,7 +1708,6 @@ GameObject:
   - component: {fileID: 3912716741428189770}
   - component: {fileID: 3906301343379785570}
   - component: {fileID: 3895951855966047430}
-  - component: {fileID: 3939203069231975536}
   m_Layer: 3
   m_Name: Front Door
   m_TagString: Untagged
@@ -1853,27 +1782,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3939203069231975536
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3911266459377998568}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.19109309, y: 0.9641558, z: 0.22953135}
-  m_Center: {x: 0.46744114, y: 0.4820779, z: 0.4307172}
 --- !u!1 &3911285946021948940
 GameObject:
   m_ObjectHideFlags: 0
@@ -2051,7 +1959,6 @@ GameObject:
   - component: {fileID: 3912751319386381104}
   - component: {fileID: 3906148107128645564}
   - component: {fileID: 3897366446126357206}
-  - component: {fileID: 3938365731918414208}
   m_Layer: 3
   m_Name: Top
   m_TagString: Untagged
@@ -2125,28 +2032,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3938365731918414208
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3911308767266145036}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300022, guid: 5a3b2c9f5dcc95944b5769d838a747e6, type: 3}
 --- !u!1 &3911338500713872386
 GameObject:
   m_ObjectHideFlags: 0
@@ -2298,7 +2183,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3772716876102779835, guid: e0f8fa703bcf04a419f5263f5020b059, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2376,7 +2262,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90.00001
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3772716876102779835, guid: e0f8fa703bcf04a419f5263f5020b059, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2454,7 +2341,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90.00001
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3772716876102779835, guid: e0f8fa703bcf04a419f5263f5020b059, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2532,7 +2420,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90.00001
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3772716876102779835, guid: e0f8fa703bcf04a419f5263f5020b059, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 3374393275197439771}
   - component: {fileID: 4071768346177776985}
   - component: {fileID: 2437537305180417073}
-  - component: {fileID: 4280047071520491384}
   - component: {fileID: 9044201956051886802}
   m_Layer: 3
   m_Name: MirrorDoor_03
@@ -85,27 +84,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4280047071520491384
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4280047071520491383}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.014537953, y: 1.0094166, z: 0.42486656}
-  m_Center: {x: -0.011978634, y: -0.000000059604645, z: -0.21151581}
 --- !u!95 &9044201956051886802
 Animator:
   serializedVersion: 5
@@ -138,7 +116,6 @@ GameObject:
   - component: {fileID: 3168896378528131865}
   - component: {fileID: 268561577527927250}
   - component: {fileID: 1575522291895449281}
-  - component: {fileID: 4652718636371656584}
   - component: {fileID: 1593702059901516290}
   m_Layer: 3
   m_Name: MirrorDoor_01
@@ -212,27 +189,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &4652718636371656584
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4652718636371656583}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.014537954, y: 1.0094166, z: 0.42486653}
-  m_Center: {x: -0.011978567, y: 0, z: 0.21151583}
 --- !u!95 &1593702059901516290
 Animator:
   serializedVersion: 5
@@ -265,7 +221,6 @@ GameObject:
   - component: {fileID: 8346187511029445445}
   - component: {fileID: 8961823534337618177}
   - component: {fileID: 4258052727054666269}
-  - component: {fileID: 6829557528369459011}
   - component: {fileID: 2074327612278466696}
   m_Layer: 3
   m_Name: MirrorDoor_02
@@ -339,27 +294,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &6829557528369459011
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6829557528369459010}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.014537967, y: 1.0094166, z: 0.5186301}
-  m_Center: {x: -0.011978557, y: 0, z: 0.25826374}
 --- !u!95 &2074327612278466696
 Animator:
   serializedVersion: 5
@@ -392,8 +326,8 @@ GameObject:
   - component: {fileID: 853864459299421544}
   - component: {fileID: 5423701144506629721}
   - component: {fileID: 5841140127669251810}
-  - component: {fileID: 8744966972566177896}
   - component: {fileID: 914234927479490255}
+  - component: {fileID: 259927648025650711}
   m_Layer: 3
   m_Name: BR_Cabinet_01
   m_TagString: Untagged
@@ -469,28 +403,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8744966972566177896
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8744966972566177895}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3090756203461502681, guid: 651d77a525480c84e9327ec0894c0da1, type: 3}
 --- !u!114 &914234927479490255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -509,3 +421,24 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 128
+--- !u!65 &259927648025650711
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8744966972566177895}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.14435607, y: 0.9934228, z: 1.3724585}
+  m_Center: {x: 0.07217798, y: 0, z: 0.00000008940697}
