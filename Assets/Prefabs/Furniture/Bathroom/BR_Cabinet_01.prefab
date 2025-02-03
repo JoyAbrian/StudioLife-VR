@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2437537305180417073}
   - component: {fileID: 4280047071520491384}
   - component: {fileID: 9044201956051886802}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: MirrorDoor_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 1575522291895449281}
   - component: {fileID: 4652718636371656584}
   - component: {fileID: 1593702059901516290}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: MirrorDoor_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -267,7 +267,7 @@ GameObject:
   - component: {fileID: 4258052727054666269}
   - component: {fileID: 6829557528369459011}
   - component: {fileID: 2074327612278466696}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: MirrorDoor_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -394,7 +394,7 @@ GameObject:
   - component: {fileID: 5841140127669251810}
   - component: {fileID: 8744966972566177896}
   - component: {fileID: 914234927479490255}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BR_Cabinet_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -506,3 +506,6 @@ MonoBehaviour:
   FurnitureName: Cabinet
   Icon: {fileID: 21300000, guid: 3efb76f7abfbc72459c3facee91cc121, type: 3}
   Price: 1
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 128

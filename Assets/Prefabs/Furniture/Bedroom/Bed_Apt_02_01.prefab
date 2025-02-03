@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5720241602834145110}
   - component: {fileID: 1579823233383350703}
   - component: {fileID: 6398685283482547066}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drawer.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 2302305627258387642}
   - component: {fileID: 2302305627258387645}
   - component: {fileID: 2302305627258387643}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drawer_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171,7 +171,7 @@ GameObject:
   - component: {fileID: 2302305627513817227}
   - component: {fileID: 2302305627513817230}
   - component: {fileID: 2302305627513817229}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drawer_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -245,7 +245,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2302305627536529538}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drawer Script
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -281,7 +281,7 @@ GameObject:
   - component: {fileID: 7957768472258639366}
   - component: {fileID: 7977208538458744065}
   - component: {fileID: 4721157838418399922}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pillow_Apt_01.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -386,7 +386,7 @@ GameObject:
   - component: {fileID: 5675573366918399062}
   - component: {fileID: 4033721698639269218}
   - component: {fileID: 4806556609691728876}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mattress
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -493,7 +493,7 @@ GameObject:
   - component: {fileID: 4788115675445209718}
   - component: {fileID: 7025830038336963282}
   - component: {fileID: 2596747438373402804}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fabric_Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -576,7 +576,7 @@ GameObject:
   - component: {fileID: 6388200415975125910}
   - component: {fileID: 4098994599367852459}
   - component: {fileID: 769143522727014097}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Handle.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -659,7 +659,7 @@ GameObject:
   - component: {fileID: 6464807786043407817}
   - component: {fileID: 7967503526743976638}
   - component: {fileID: 5064469522629083350}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drawer.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -746,7 +746,7 @@ GameObject:
   - component: {fileID: 6998527035024098074}
   - component: {fileID: 6998527035024098073}
   - component: {fileID: 8458208193706659960}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bed_Apt_02_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -878,6 +878,9 @@ MonoBehaviour:
   FurnitureName: Double Bed
   Icon: {fileID: 21300000, guid: 87aca7f7b819c894cb7fc5431a231696, type: 3}
   Price: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!1 &7892085742027063612
 GameObject:
   m_ObjectHideFlags: 0
@@ -890,7 +893,7 @@ GameObject:
   - component: {fileID: 3482024526280217889}
   - component: {fileID: 1028410820556702150}
   - component: {fileID: 7892085742027063613}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pillow_Apt_01.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -994,7 +997,7 @@ GameObject:
   - component: {fileID: 4511514365941176494}
   - component: {fileID: 8082116664966625458}
   - component: {fileID: 8699021103390027411}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Handle.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1077,7 +1080,7 @@ GameObject:
   - component: {fileID: 174271235404983404}
   - component: {fileID: 8024043227242045379}
   - component: {fileID: 6611505926960723458}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sheet
   m_TagString: Untagged
   m_Icon: {fileID: 0}

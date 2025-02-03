@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6825043961406207079}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Props
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,9 +55,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6825043961406207079}
     m_Modifications:
+    - target: {fileID: 5638865034277454344, guid: e0f8fa703bcf04a419f5263f5020b059, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5638865034277454348, guid: e0f8fa703bcf04a419f5263f5020b059, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5638865034277454350, guid: e0f8fa703bcf04a419f5263f5020b059, type: 3}
       propertyPath: m_Name
       value: wine bottle 04_Low Poly (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5638865034277454350, guid: e0f8fa703bcf04a419f5263f5020b059, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5638865034277625390, guid: e0f8fa703bcf04a419f5263f5020b059, type: 3}
       propertyPath: m_RootOrder
@@ -121,9 +133,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6825043961406207079}
     m_Modifications:
+    - target: {fileID: 5638865034277454344, guid: e0f8fa703bcf04a419f5263f5020b059, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5638865034277454348, guid: e0f8fa703bcf04a419f5263f5020b059, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5638865034277454350, guid: e0f8fa703bcf04a419f5263f5020b059, type: 3}
       propertyPath: m_Name
       value: wine bottle 04_Low Poly (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5638865034277454350, guid: e0f8fa703bcf04a419f5263f5020b059, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5638865034277625390, guid: e0f8fa703bcf04a419f5263f5020b059, type: 3}
       propertyPath: m_RootOrder
@@ -191,6 +215,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wine thin glass (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1527335154527126, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4386004159453184, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -256,6 +284,10 @@ PrefabInstance:
     - target: {fileID: 1527335154527126, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
       propertyPath: m_Name
       value: wine thin glass (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527335154527126, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4386004159453184, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
       propertyPath: m_RootOrder
@@ -323,6 +355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wine thin glass (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1527335154527126, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4386004159453184, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -388,6 +424,10 @@ PrefabInstance:
     - target: {fileID: 1527335154527126, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
       propertyPath: m_Name
       value: wine thin glass
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527335154527126, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4386004159453184, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
       propertyPath: m_RootOrder
@@ -455,6 +495,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wine thin glass (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1527335154527126, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4386004159453184, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -520,6 +564,10 @@ PrefabInstance:
     - target: {fileID: 1527335154527126, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
       propertyPath: m_Name
       value: wine thin glass (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527335154527126, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4386004159453184, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
       propertyPath: m_RootOrder
@@ -587,6 +635,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wine thin glass (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1527335154527126, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4386004159453184, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -652,6 +704,10 @@ PrefabInstance:
     - target: {fileID: 1527335154527126, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
       propertyPath: m_Name
       value: wine thin glass (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527335154527126, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4386004159453184, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
       propertyPath: m_RootOrder
@@ -719,6 +775,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wine thin glass (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1527335154527126, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4386004159453184, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -784,6 +844,10 @@ PrefabInstance:
     - target: {fileID: 1527335154527126, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
       propertyPath: m_Name
       value: wine thin glass (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527335154527126, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4386004159453184, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
       propertyPath: m_RootOrder
@@ -851,6 +915,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: wine thin glass (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1527335154527126, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4386004159453184, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -916,6 +984,10 @@ PrefabInstance:
     - target: {fileID: 1527335154527126, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
       propertyPath: m_Name
       value: wine thin glass (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527335154527126, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4386004159453184, guid: 14973bbaa08d142449d2405142caff8d, type: 3}
       propertyPath: m_RootOrder
@@ -1039,6 +1111,10 @@ PrefabInstance:
       propertyPath: FurnitureName
       value: Bar Cabinet 01 Filled
       objectReference: {fileID: 0}
+    - target: {fileID: 7877172514464874131, guid: 71546b2097e63004893a3528d003a956, type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 128
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -1064,6 +1140,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: MirrorPlate_Filled Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 2721190075246613306, guid: c0474be4602986b4f9e6342b6b0817e7, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4244604889352224500, guid: c0474be4602986b4f9e6342b6b0817e7, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4611305905941146179, guid: c0474be4602986b4f9e6342b6b0817e7, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -1071,6 +1155,26 @@ PrefabInstance:
     - target: {fileID: 4611305905941146179, guid: c0474be4602986b4f9e6342b6b0817e7, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4611305905941640801, guid: c0474be4602986b4f9e6342b6b0817e7, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4611305905941640803, guid: c0474be4602986b4f9e6342b6b0817e7, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5217868427640346289, guid: c0474be4602986b4f9e6342b6b0817e7, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5217868427640346293, guid: c0474be4602986b4f9e6342b6b0817e7, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5217868427640346295, guid: c0474be4602986b4f9e6342b6b0817e7, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6645630042409671750, guid: c0474be4602986b4f9e6342b6b0817e7, type: 3}
       propertyPath: m_RootOrder
@@ -1116,6 +1220,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8600323318404547953, guid: c0474be4602986b4f9e6342b6b0817e7, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8887193545620752836, guid: c0474be4602986b4f9e6342b6b0817e7, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1134,9 +1246,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6825043961406207079}
     m_Modifications:
+    - target: {fileID: 5638865034277454344, guid: e0f8fa703bcf04a419f5263f5020b059, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5638865034277454348, guid: e0f8fa703bcf04a419f5263f5020b059, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5638865034277454350, guid: e0f8fa703bcf04a419f5263f5020b059, type: 3}
       propertyPath: m_Name
       value: wine bottle 04_Low Poly (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5638865034277454350, guid: e0f8fa703bcf04a419f5263f5020b059, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5638865034277625390, guid: e0f8fa703bcf04a419f5263f5020b059, type: 3}
       propertyPath: m_RootOrder

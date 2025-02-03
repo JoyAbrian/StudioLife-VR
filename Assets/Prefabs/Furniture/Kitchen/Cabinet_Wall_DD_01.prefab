@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3257374499999665584}
   - component: {fileID: 7545886951784537759}
   - component: {fileID: 5989467977646018009}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pull.029
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 1701794097355094157}
   - component: {fileID: 148921995703793567}
   - component: {fileID: 7368893362301289963}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cabinet_Wall_DD_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -207,6 +207,9 @@ MonoBehaviour:
   FurnitureName: Cabinet Wall 01
   Icon: {fileID: 21300000, guid: 335c3c83c8c00864c92e4a8d33eb1a79, type: 3}
   Price: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!1 &3517910945985416520
 GameObject:
   m_ObjectHideFlags: 0
@@ -218,7 +221,7 @@ GameObject:
   - component: {fileID: 8204154299637180445}
   - component: {fileID: 6851476231027249706}
   - component: {fileID: 2315736643186456434}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pull.031
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -302,7 +305,7 @@ GameObject:
   - component: {fileID: 2433531793909998778}
   - component: {fileID: 3414273542007879064}
   - component: {fileID: 28785889}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Door_L.015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -408,7 +411,7 @@ GameObject:
   - component: {fileID: 128330863755583351}
   - component: {fileID: 3130694383377418798}
   - component: {fileID: 181523937}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Door_L.017
   m_TagString: Untagged
   m_Icon: {fileID: 0}

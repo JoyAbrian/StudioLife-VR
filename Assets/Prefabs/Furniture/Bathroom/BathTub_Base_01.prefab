@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8491856453150602090}
   - component: {fileID: 8969302608968954616}
   - component: {fileID: 609126468041172476}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GlassWall_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 6611176152109816902}
   - component: {fileID: 3441229937547172273}
   - component: {fileID: 703964251201245475}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GlassWall_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -223,7 +223,7 @@ GameObject:
   - component: {fileID: 2742047375368240822}
   - component: {fileID: 2805616125457797557}
   - component: {fileID: 5182259735893618784}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BathTub_Base_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -334,6 +334,9 @@ MonoBehaviour:
   FurnitureName: Bathtub
   Icon: {fileID: 21300000, guid: 0bbee266838ce5041b5a018bdfae845d, type: 3}
   Price: 1
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!1 &3776548339571156591
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,7 +348,7 @@ GameObject:
   - component: {fileID: 3991406167233984337}
   - component: {fileID: 5718110396820137911}
   - component: {fileID: 8201054020281671428}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BathTub
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -428,7 +431,7 @@ GameObject:
   - component: {fileID: 6600612497418600821}
   - component: {fileID: 6931771785623678655}
   - component: {fileID: 1596221635594092712}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GlassDoorHandel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -513,7 +516,7 @@ GameObject:
   - component: {fileID: 1941518076457073655}
   - component: {fileID: 6976062566496198566}
   - component: {fileID: 6976062566496198567}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: GlassDoor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -639,7 +642,7 @@ GameObject:
   - component: {fileID: 6809806112944075676}
   - component: {fileID: 346138575928656529}
   - component: {fileID: 8171280172158332004}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ShowerDoorBase_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}

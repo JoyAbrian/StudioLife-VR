@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5018950054057871644}
   - component: {fileID: 5018950054057871641}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bottom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65,7 +65,7 @@ GameObject:
   - component: {fileID: 5018950054084982447}
   - component: {fileID: 5018950054084982441}
   - component: {fileID: 5018950054084982446}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Handle.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -148,7 +148,7 @@ GameObject:
   - component: {fileID: 5018950054119123286}
   - component: {fileID: 5018950054119123280}
   - component: {fileID: 5018950054119123281}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Handle.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -230,7 +230,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5018950055006186487}
   - component: {fileID: 5018950055006186480}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -288,7 +288,7 @@ GameObject:
   - component: {fileID: 5018950055216721062}
   - component: {fileID: 5018950055216721063}
   - component: {fileID: 8484874041389379184}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_End_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -418,6 +418,9 @@ MonoBehaviour:
   FurnitureName: Table 01
   Icon: {fileID: 21300000, guid: 8ded43d4685597b4981c90a9a636239c, type: 3}
   Price: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!1 &5018950055296117028
 GameObject:
   m_ObjectHideFlags: 0
@@ -429,7 +432,7 @@ GameObject:
   - component: {fileID: 5018950055296117031}
   - component: {fileID: 5018950055296117025}
   - component: {fileID: 5018950055296117030}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drawer.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -511,7 +514,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5018950055716668700}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drawer Script
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -546,7 +549,7 @@ GameObject:
   - component: {fileID: 5018950055889833694}
   - component: {fileID: 5018950055889833691}
   - component: {fileID: 5018950055889833688}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drawer.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}

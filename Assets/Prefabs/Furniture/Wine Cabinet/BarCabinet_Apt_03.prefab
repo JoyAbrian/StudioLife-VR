@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33141652160987030}
   - component: {fileID: 23871812338788448}
   - component: {fileID: 64041862407705884}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Self Glass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 4190432508279208}
   - component: {fileID: 33649304834974530}
   - component: {fileID: 23985209220858928}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mirror.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -201,7 +201,7 @@ GameObject:
   - component: {fileID: 33277565808672376}
   - component: {fileID: 23161688925707174}
   - component: {fileID: 65091148655541958}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Front Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -308,7 +308,7 @@ GameObject:
   - component: {fileID: 33870524108172318}
   - component: {fileID: 23723938954060606}
   - component: {fileID: 64456441008190552}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -415,7 +415,7 @@ GameObject:
   - component: {fileID: 33805968521464848}
   - component: {fileID: 23859954953977558}
   - component: {fileID: 64757876092040254}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Glass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -520,7 +520,7 @@ GameObject:
   - component: {fileID: 4554147443035362}
   - component: {fileID: 33098213461501792}
   - component: {fileID: 23890804384737388}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Back Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -608,7 +608,7 @@ GameObject:
   - component: {fileID: 23105991983713780}
   - component: {fileID: 64076887709117490}
   - component: {fileID: 3078165157326805228}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BarCabinet_Apt_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -723,6 +723,9 @@ MonoBehaviour:
   FurnitureName: Bar Cabinet 03
   Icon: {fileID: 21300000, guid: ca6f3aee776c44b47bc23523196086cf, type: 3}
   Price: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!1 &1630884898586436
 GameObject:
   m_ObjectHideFlags: 0
@@ -735,7 +738,7 @@ GameObject:
   - component: {fileID: 33565811216868176}
   - component: {fileID: 23360009702977736}
   - component: {fileID: 64490360696500352}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Shelf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -840,7 +843,7 @@ GameObject:
   - component: {fileID: 4124914945108282}
   - component: {fileID: 33363265538345696}
   - component: {fileID: 23303841888774258}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mirror
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -923,7 +926,7 @@ GameObject:
   - component: {fileID: 4403863019550358}
   - component: {fileID: 33774043385081098}
   - component: {fileID: 23219267999413240}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wine Glass Bars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1007,7 +1010,7 @@ GameObject:
   - component: {fileID: 33001663031152034}
   - component: {fileID: 23760207696447726}
   - component: {fileID: 64913396058746910}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Glass.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1112,7 +1115,7 @@ GameObject:
   - component: {fileID: 4935841715441106}
   - component: {fileID: 33760805552961644}
   - component: {fileID: 23436103216978184}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1195,7 +1198,7 @@ GameObject:
   - component: {fileID: 4919999378778978}
   - component: {fileID: 33516365037492734}
   - component: {fileID: 23001068925921680}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Glass Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6063228506930184667}
   - component: {fileID: 6017100943722803056}
   - component: {fileID: 8557084167061322938}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Toilet_Apt_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,6 +123,9 @@ MonoBehaviour:
   FurnitureName: Toilet
   Icon: {fileID: 21300000, guid: 1adba917da2ed5d41b280e306eb3c277, type: 3}
   Price: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!1 &6795685716915025300
 GameObject:
   m_ObjectHideFlags: 0
@@ -134,7 +137,7 @@ GameObject:
   - component: {fileID: 2928308741890861072}
   - component: {fileID: 2022574529777350873}
   - component: {fileID: 6035212948037553138}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Toilet_Cover_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -217,7 +220,7 @@ GameObject:
   - component: {fileID: 3447398674445884295}
   - component: {fileID: 5075293977324638007}
   - component: {fileID: 3070919692050592260}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Toilet_Seat_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}

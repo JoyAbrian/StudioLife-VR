@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2061951137126809883}
   - component: {fileID: 2255247479494259507}
   - component: {fileID: 2112037616177321720}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pillow_Apt_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -119,7 +119,7 @@ GameObject:
   - component: {fileID: 944290936563880945}
   - component: {fileID: 3790675109821727727}
   - component: {fileID: 2040224802602919991}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Bed_Apt_01_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -249,6 +249,9 @@ MonoBehaviour:
   FurnitureName: Single Bed - Blue
   Icon: {fileID: 21300000, guid: 12d286039addf02428ebadb49fa6ab31, type: 3}
   Price: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!1 &6693551714665185562
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,7 +263,7 @@ GameObject:
   - component: {fileID: 3848076423006941425}
   - component: {fileID: 1839907776765993108}
   - component: {fileID: 2549145306513761032}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sheet_Apt_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -344,7 +347,7 @@ GameObject:
   - component: {fileID: 2915043974780966476}
   - component: {fileID: 2178181277392150257}
   - component: {fileID: 7551278821581706151}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mattress_Apt_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}

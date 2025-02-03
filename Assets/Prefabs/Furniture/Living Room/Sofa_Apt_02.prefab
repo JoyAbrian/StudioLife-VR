@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5230072427355626235}
   - component: {fileID: 7990062016004609082}
   - component: {fileID: 1487326640667925142}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Sofa_Apt_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,8 +105,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.0594285, y: 0.9769529, z: 3.1901913}
-  m_Center: {x: 0.006916553, y: 0.7488381, z: 0}
+  m_Size: {x: 1.27, y: 1.31, z: 3.55}
+  m_Center: {x: 0.006916553, y: 0.66, z: 0}
 --- !u!114 &1487326640667925142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -122,6 +122,9 @@ MonoBehaviour:
   FurnitureName: Sofa 02
   Icon: {fileID: 21300000, guid: b83a5f9826c65cc47ac2a15e1982a424, type: 3}
   Price: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!1 &8533295252653469338
 GameObject:
   m_ObjectHideFlags: 0
@@ -133,8 +136,7 @@ GameObject:
   - component: {fileID: 465114231504592983}
   - component: {fileID: 4583669013568051683}
   - component: {fileID: 5335335037528678136}
-  - component: {fileID: 3459246502224494006}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: feet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -206,24 +208,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &3459246502224494006
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8533295252653469338}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.96555305, y: 0.26036227, z: 3.0274832}
-  m_Center: {x: -0.000000074505806, y: 0.1301809, z: 0}

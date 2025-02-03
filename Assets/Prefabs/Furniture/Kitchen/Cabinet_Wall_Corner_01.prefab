@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8372081406558004440}
   - component: {fileID: 4342015093667416135}
   - component: {fileID: 3586842074972672346}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pull.012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 8383330820956632840}
   - component: {fileID: 3951569358535438735}
   - component: {fileID: 3512531869402892359}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pull.013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   - component: {fileID: 3131159966196623495}
   - component: {fileID: 3875519062799300168}
   - component: {fileID: 2116746182}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Plane.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -284,7 +284,7 @@ GameObject:
   - component: {fileID: 5292176019212842707}
   - component: {fileID: 4854756580749094769}
   - component: {fileID: 1751959427}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Door_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -389,7 +389,7 @@ GameObject:
   - component: {fileID: 8546443893606358373}
   - component: {fileID: 6950274936154623208}
   - component: {fileID: 8058587635031527623}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pull.017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -473,7 +473,7 @@ GameObject:
   - component: {fileID: 4930821858601792772}
   - component: {fileID: 1959886212948746283}
   - component: {fileID: 1034749827}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Door_R.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -581,7 +581,7 @@ GameObject:
   - component: {fileID: 751402469560137725}
   - component: {fileID: 4579037469988632223}
   - component: {fileID: 4099980517783977011}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cabinet_Wall_Corner_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -693,3 +693,6 @@ MonoBehaviour:
   FurnitureName: Cabinet Wall Corner
   Icon: {fileID: 21300000, guid: 1ce0f0617d3f0014b8ec3d1b50491135, type: 3}
   Price: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 128

@@ -6,12 +6,18 @@ public class FurniturePlacer : MonoBehaviour
 {
     public Transform player;
     public float placementDistance = 2f;
-    public LayerMask groundLayer;
     public Material ghostMaterial;
+    public Material failMaterial;
     public InputActionReference placeFurnitureAction;
+
+    private LayerMask groundLayer;
+    private LayerMask furnitureLayer;
+    private LayerMask wallLayer;
 
     private Furniture selectedFurniture;
     private GameObject ghostObject;
+    private Collider ghostCollider;
+    private bool canPlace = true;
 
     private void OnEnable()
     {
@@ -28,6 +34,10 @@ public class FurniturePlacer : MonoBehaviour
     public void SetSelectedFurniture(Furniture furniture)
     {
         selectedFurniture = furniture;
+        groundLayer = selectedFurniture.groundLayer;
+        furnitureLayer = LayerMask.GetMask("Furniture");
+        wallLayer = LayerMask.GetMask("Wall");
+
         CreateGhost();
     }
 
@@ -41,6 +51,7 @@ public class FurniturePlacer : MonoBehaviour
         if (selectedFurniture == null) return;
 
         ghostObject = Instantiate(selectedFurniture.gameObject);
+        ghostCollider = ghostObject.GetComponent<Collider>();
         SetGhostAppearance(ghostObject);
     }
 
@@ -62,6 +73,9 @@ public class FurniturePlacer : MonoBehaviour
         Vector3 placementPosition = player.position + player.forward * placementDistance;
         placementPosition.y = GetGroundHeight(placementPosition);
         ghostObject.transform.position = placementPosition;
+
+        canPlace = !IsColliding(ghostObject);
+        UpdateGhostMaterial(canPlace);
     }
 
     private float GetGroundHeight(Vector3 position)
@@ -74,9 +88,45 @@ public class FurniturePlacer : MonoBehaviour
         return position.y;
     }
 
+    private bool IsColliding(GameObject ghost)
+    {
+        if (ghostCollider == null) return false;
+
+        LayerMask collisionMask = furnitureLayer | wallLayer;
+
+        Collider[] colliders = Physics.OverlapBox(
+            ghostCollider.bounds.center,
+            ghostCollider.bounds.extents,
+            ghostObject.transform.rotation,
+            collisionMask
+        );
+
+        foreach (var col in colliders)
+        {
+            if (col.gameObject != ghost && col.gameObject != player.gameObject)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private void UpdateGhostMaterial(bool valid)
+    {
+        foreach (var renderer in ghostObject.GetComponentsInChildren<Renderer>())
+        {
+            renderer.material = valid ? ghostMaterial : failMaterial;
+            Color color = renderer.material.color;
+            color.a = 0.5f;
+            renderer.material.color = color;
+        }
+    }
+
     private void OnPlaceFurniture(InputAction.CallbackContext context)
     {
         if (selectedFurniture == null || ghostObject == null || EventSystem.current.IsPointerOverGameObject()) return;
+        if (!canPlace) return;
+
         PlaceFurniture(ghostObject.transform.position);
     }
 

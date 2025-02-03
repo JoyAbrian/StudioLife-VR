@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3788386925520470094}
   - component: {fileID: 2429950304865375160}
   - component: {fileID: -1002103295754397343}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cabinet_Shelf_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121,3 +121,6 @@ MonoBehaviour:
   FurnitureName: Cabinet Shelf
   Icon: {fileID: 21300000, guid: bdc047f631d62c843bd0e000c7ac2fac, type: 3}
   Price: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 128

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8906236682411471944}
   - component: {fileID: 625481971148334283}
   - component: {fileID: 625481971148334277}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: HamperFlap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 2584024763547512178}
   - component: {fileID: 8213366066681267144}
   - component: {fileID: 3278775105551503417}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Hamper_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -250,3 +250,6 @@ MonoBehaviour:
   FurnitureName: Hamper
   Icon: {fileID: 21300000, guid: 94b532e7034d1ab43bcc3ae21884edae, type: 3}
   Price: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 128

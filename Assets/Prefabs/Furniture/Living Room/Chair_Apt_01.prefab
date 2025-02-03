@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 8264811238123751577}
   - component: {fileID: 447558298571142761}
   - component: {fileID: 1868148460928496882}
-  m_Layer: 0
+  - component: {fileID: 3602254539752817639}
+  m_Layer: 3
   m_Name: Chair_Apt_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,6 +101,30 @@ MonoBehaviour:
   FurnitureName: Chair
   Icon: {fileID: 21300000, guid: 9372ab7fa45a5ab4e9701f2cbb7c6eaf, type: 3}
   Price: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 128
+--- !u!65 &3602254539752817639
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717429913565124302}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.84524024, y: 1.36, z: 0.7526914}
+  m_Center: {x: -0.049308583, y: 0.71, z: 0.0022395253}
 --- !u!1 &7120384674170477589
 GameObject:
   m_ObjectHideFlags: 0
@@ -111,8 +136,7 @@ GameObject:
   - component: {fileID: 3599517576419434464}
   - component: {fileID: 4192917931096783764}
   - component: {fileID: 5101371539006663129}
-  - component: {fileID: 8137235233352474271}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Legs Chair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -184,24 +208,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &8137235233352474271
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7120384674170477589}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.6784745, y: 0.5943295, z: 0.6031933}
-  m_Center: {x: 0.009857416, y: 0.2970866, z: 0.002239406}

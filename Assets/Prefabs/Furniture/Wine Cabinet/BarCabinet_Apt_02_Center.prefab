@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4071987453035394}
   - component: {fileID: 33771466793498982}
   - component: {fileID: 23007734237767072}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 4605631592718226}
   - component: {fileID: 33191776022228422}
   - component: {fileID: 23897752549851672}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drawer.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -180,7 +180,7 @@ GameObject:
   - component: {fileID: 23650115158669152}
   - component: {fileID: 64147653701931796}
   - component: {fileID: 4759470246256533131}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BarCabinet_Apt_02_Center
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -294,6 +294,9 @@ MonoBehaviour:
   FurnitureName: Bar Cabinet 02 Center
   Icon: {fileID: 21300000, guid: 322aecb9c5f538540b12a3ee5d94d44e, type: 3}
   Price: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!1 &1510603128114804
 GameObject:
   m_ObjectHideFlags: 0
@@ -304,7 +307,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4023957498281526}
   - component: {fileID: 65036380684658286}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drawer 02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -359,7 +362,7 @@ GameObject:
   - component: {fileID: 4378679773760666}
   - component: {fileID: 33359924963484836}
   - component: {fileID: 23297786093103388}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drawer.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -444,7 +447,7 @@ GameObject:
   - component: {fileID: 33308884931468708}
   - component: {fileID: 23270129897141596}
   - component: {fileID: 65055900282867796}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Center Counter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -548,7 +551,7 @@ GameObject:
   - component: {fileID: 4205309817982672}
   - component: {fileID: 33199012483052248}
   - component: {fileID: 23933092787282134}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wine Rack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -630,7 +633,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4914688586497512}
   - component: {fileID: 65309129775739758}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drawer 03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -685,7 +688,7 @@ GameObject:
   - component: {fileID: 4379402970913244}
   - component: {fileID: 33809937548622250}
   - component: {fileID: 23638971872161346}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wine Rack.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -768,7 +771,7 @@ GameObject:
   - component: {fileID: 4162740568294728}
   - component: {fileID: 33260815578015798}
   - component: {fileID: 23481273549656114}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}

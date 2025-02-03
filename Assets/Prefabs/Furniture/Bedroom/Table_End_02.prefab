@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4567014227131177534}
   - component: {fileID: 974906232841807253}
   - component: {fileID: 5673144800014062460}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Knob.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3002469840237742445}
   - component: {fileID: 3002469840237742440}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drawer Script
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -151,7 +151,7 @@ GameObject:
   - component: {fileID: 2234750567089888487}
   - component: {fileID: 2717881991533657957}
   - component: {fileID: 7714876331384470527}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table_End_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -281,6 +281,9 @@ MonoBehaviour:
   FurnitureName: Table 02
   Icon: {fileID: 21300000, guid: ade9c3eba957e6140a6f30b9c52091a3, type: 3}
   Price: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!1 &8683100469954120606
 GameObject:
   m_ObjectHideFlags: 0
@@ -292,7 +295,7 @@ GameObject:
   - component: {fileID: 8563190141593738910}
   - component: {fileID: 8696122322173700855}
   - component: {fileID: 1680737451334077184}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drawer.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}

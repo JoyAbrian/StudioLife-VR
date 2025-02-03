@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5318170511345373949}
   - component: {fileID: 1212533452103472478}
   - component: {fileID: 436849882}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Door_L.014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -117,7 +117,7 @@ GameObject:
   - component: {fileID: 4755121432489115935}
   - component: {fileID: 46020822040797582}
   - component: {fileID: 5670981103275161653}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pull.027
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -201,7 +201,7 @@ GameObject:
   - component: {fileID: 5879759525201095746}
   - component: {fileID: 7145311895657260234}
   - component: {fileID: 1031967142}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Door_L.016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -307,7 +307,7 @@ GameObject:
   - component: {fileID: 3421298386265639475}
   - component: {fileID: 918563746677929745}
   - component: {fileID: 503165819}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Counter_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -411,7 +411,7 @@ GameObject:
   - component: {fileID: 6379548256612660979}
   - component: {fileID: 2849165749163855120}
   - component: {fileID: 606130914887944625}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pull.030
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -494,7 +494,7 @@ GameObject:
   - component: {fileID: 1147801812842946770}
   - component: {fileID: 1440673626862406882}
   - component: {fileID: 619792531974292376}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pull.028
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -579,7 +579,7 @@ GameObject:
   - component: {fileID: 5255125124023480174}
   - component: {fileID: 2305463942451076359}
   - component: {fileID: 497763988663127253}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Cabinet_Base_DD_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -692,6 +692,9 @@ MonoBehaviour:
   FurnitureName: Cabinet 01
   Icon: {fileID: 21300000, guid: c12091bcb16767a4289755af7e55224f, type: 3}
   Price: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!1 &8051497628472091917
 GameObject:
   m_ObjectHideFlags: 0
@@ -702,7 +705,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7515453489901994396}
   - component: {fileID: 7886138107685249725}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drawer_Script
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -757,7 +760,7 @@ GameObject:
   - component: {fileID: 8704638540493558513}
   - component: {fileID: 9145225760431022986}
   - component: {fileID: 1203796333689968487}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drawer.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}

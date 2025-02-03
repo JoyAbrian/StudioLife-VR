@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4016716938541968}
   - component: {fileID: 65683114059547554}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drawer 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65,7 +65,7 @@ GameObject:
   - component: {fileID: 4695721826675744}
   - component: {fileID: 33488825000068410}
   - component: {fileID: 23567581781682198}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wine Rack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -148,7 +148,7 @@ GameObject:
   - component: {fileID: 4834867226339924}
   - component: {fileID: 33152332198041066}
   - component: {fileID: 23056466212579604}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -231,7 +231,7 @@ GameObject:
   - component: {fileID: 4065870166642954}
   - component: {fileID: 33847155880198858}
   - component: {fileID: 23252197502897788}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drawer.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -314,7 +314,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4354603235021132}
   - component: {fileID: -3778013674315396175}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: BarCabinet_Apt_02_CenterTower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -354,6 +354,9 @@ MonoBehaviour:
   FurnitureName: Bar Cabinet 02 Center Tower
   Icon: {fileID: 21300000, guid: 4de3edfa301bbea42b350c2c3d7020af, type: 3}
   Price: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 128
 --- !u!1 &1160622523854244
 GameObject:
   m_ObjectHideFlags: 0
@@ -365,7 +368,7 @@ GameObject:
   - component: {fileID: 4199008332291082}
   - component: {fileID: 33709321189914514}
   - component: {fileID: 23392885348731580}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drawer.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -449,7 +452,7 @@ GameObject:
   - component: {fileID: 4593362636814754}
   - component: {fileID: 33485771765461086}
   - component: {fileID: 23615521760448718}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drawer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -533,7 +536,7 @@ GameObject:
   - component: {fileID: 4582520103062346}
   - component: {fileID: 33469238416235366}
   - component: {fileID: 23703187215629644}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Side Counter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -616,7 +619,7 @@ GameObject:
   - component: {fileID: 4104304938846850}
   - component: {fileID: 33517479036088788}
   - component: {fileID: 23167476008608824}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -698,7 +701,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4979979360131438}
   - component: {fileID: 65305937841895192}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drawer 02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -754,7 +757,7 @@ GameObject:
   - component: {fileID: 33220027278609580}
   - component: {fileID: 23863583453616222}
   - component: {fileID: 64626595824085400}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Tower Cab 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -860,7 +863,7 @@ GameObject:
   - component: {fileID: 4991796726219674}
   - component: {fileID: 33175141704689700}
   - component: {fileID: 23757467130958838}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -943,7 +946,7 @@ GameObject:
   - component: {fileID: 4641701147546204}
   - component: {fileID: 33936143149447740}
   - component: {fileID: 23400733736508668}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wine Rack.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1027,7 +1030,7 @@ GameObject:
   - component: {fileID: 33240153494156198}
   - component: {fileID: 23653225688368062}
   - component: {fileID: 64229797333247226}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Center Cabinet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1137,7 +1140,7 @@ GameObject:
   - component: {fileID: 4408331606702656}
   - component: {fileID: 33958154430161922}
   - component: {fileID: 23909020872404096}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Base Wine Rack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1221,7 +1224,7 @@ GameObject:
   - component: {fileID: 33647358983160486}
   - component: {fileID: 23059527663825460}
   - component: {fileID: 64093802640025582}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Side Cab 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1329,7 +1332,7 @@ GameObject:
   - component: {fileID: 4668846665332526}
   - component: {fileID: 33104377044629672}
   - component: {fileID: 23869486589769820}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Wine Rack.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1411,7 +1414,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4781499420366578}
   - component: {fileID: 65872383583384644}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drawer 03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1467,7 +1470,7 @@ GameObject:
   - component: {fileID: 33543688383272390}
   - component: {fileID: 23770787196463854}
   - component: {fileID: 65589436301719272}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Center Counter
   m_TagString: Untagged
   m_Icon: {fileID: 0}

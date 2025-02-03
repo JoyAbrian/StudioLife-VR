@@ -11,10 +11,9 @@ GameObject:
   - component: {fileID: 2484863591589315909}
   - component: {fileID: 7214135209668837479}
   - component: {fileID: 7532235673293454359}
-  - component: {fileID: 572741141759436918}
-  - component: {fileID: 6809188700969092326}
   - component: {fileID: 222481642999560977}
-  m_Layer: 0
+  - component: {fileID: 3198349036615958081}
+  m_Layer: 3
   m_Name: Table_Side_Apt_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,48 +86,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &572741141759436918
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5626706108481955418}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.67746735, y: 0.14061351, z: 0.7897521}
-  m_Center: {x: 0.016748518, y: 0.070306756, z: -0.000000029802322}
---- !u!65 &6809188700969092326
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5626706108481955418}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.67746735, y: 0.039348304, z: 0.7897521}
-  m_Center: {x: 0.016748518, y: 0.7585008, z: -0.000000029802322}
 --- !u!114 &222481642999560977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,6 +101,30 @@ MonoBehaviour:
   FurnitureName: Table Side
   Icon: {fileID: 21300000, guid: b0dddbb7ec3718f45a4eea28325f30ba, type: 3}
   Price: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 128
+--- !u!65 &3198349036615958081
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5626706108481955418}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.67746735, y: 0.778175, z: 0.7897521}
+  m_Center: {x: 0.016748518, y: 0.3890875, z: -0.000000014901161}
 --- !u!1 &7107749821160667755
 GameObject:
   m_ObjectHideFlags: 0
@@ -155,7 +136,7 @@ GameObject:
   - component: {fileID: 8722149950046626367}
   - component: {fileID: 4289846115821185018}
   - component: {fileID: 6471184083371856728}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -239,7 +220,7 @@ GameObject:
   - component: {fileID: 5213435544768149446}
   - component: {fileID: 7161535968814058960}
   - component: {fileID: 8025527974131381722}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Handle.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -322,7 +303,7 @@ GameObject:
   - component: {fileID: 5594884921497808162}
   - component: {fileID: 1165858228339764706}
   - component: {fileID: 8896407596103779847}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drawer.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -404,8 +385,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8698839405852113499}
-  - component: {fileID: 8698839405852113476}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drawer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -428,24 +408,3 @@ Transform:
   - {fileID: 5594884921497808162}
   m_Father: {fileID: 8722149950046626367}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &8698839405852113476
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8698839405852113496}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.05, y: 0.19, z: 0.6}
-  m_Center: {x: 0.3, y: 0.64, z: 0}
