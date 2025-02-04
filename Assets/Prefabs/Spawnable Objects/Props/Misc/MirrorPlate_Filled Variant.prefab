@@ -23,20 +23,22 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8887193545620752836}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4611305905941146179}
   - {fileID: 5217868427640507031}
   m_Father: {fileID: 6645630042409671750}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &443835939842783510
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 3667217466884621675}
     m_Modifications:
     - target: {fileID: 4167646210236683093, guid: e32f2e76bad645746b596640d4736354, type: 3}
@@ -99,7 +101,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: wine thin glass Red Wine
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7333573651064249912, guid: e32f2e76bad645746b596640d4736354, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e32f2e76bad645746b596640d4736354, type: 3}
 --- !u!4 &4611305905941146179 stripped
 Transform:
@@ -111,6 +117,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 3667217466884621675}
     m_Modifications:
     - target: {fileID: 5638865034277454350, guid: e0f8fa703bcf04a419f5263f5020b059, type: 3}
@@ -201,7 +208,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3772716876102779835, guid: e0f8fa703bcf04a419f5263f5020b059, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0f8fa703bcf04a419f5263f5020b059, type: 3}
 --- !u!4 &5217868427640507031 stripped
 Transform:
@@ -213,8 +224,17 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3033080181493469212, guid: ba11bcdb94e8ac2498db51b197091c7a, type: 3}
+      propertyPath: m_Size.y
+      value: 0.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 3033080181493469212, guid: ba11bcdb94e8ac2498db51b197091c7a, type: 3}
+      propertyPath: m_Center.y
+      value: 0.33
+      objectReference: {fileID: 0}
     - target: {fileID: 4502068494070049677, guid: ba11bcdb94e8ac2498db51b197091c7a, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -264,6 +284,12 @@ PrefabInstance:
       value: MirrorPlate_Filled Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4502068494070049677, guid: ba11bcdb94e8ac2498db51b197091c7a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3667217466884621675}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba11bcdb94e8ac2498db51b197091c7a, type: 3}
 --- !u!4 &6645630042409671750 stripped
 Transform:

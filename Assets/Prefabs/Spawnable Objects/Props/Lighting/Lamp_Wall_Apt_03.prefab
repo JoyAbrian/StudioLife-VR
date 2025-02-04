@@ -537,7 +537,7 @@ GameObject:
   - component: {fileID: 7932477987371438233}
   - component: {fileID: 5006834288570464545}
   m_Layer: 0
-  m_Name: Lamp_BR_01
+  m_Name: Lamp_Wall_Apt_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
