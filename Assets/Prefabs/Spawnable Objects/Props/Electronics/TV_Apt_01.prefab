@@ -291,4 +291,4 @@ MonoBehaviour:
   Price: 0
   groundLayer:
     serializedVersion: 2
-    m_Bits: 136
+    m_Bits: 64

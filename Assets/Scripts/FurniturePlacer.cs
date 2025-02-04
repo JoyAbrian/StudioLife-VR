@@ -92,7 +92,30 @@ public class FurniturePlacer : MonoBehaviour
         if (selectedFurniture == null || ghostObject == null) return;
 
         Vector3 placementPosition = player.position + player.forward * placementDistance;
-        placementPosition.y = GetGroundHeight(placementPosition);
+
+        RaycastHit wallHit;
+        if (Physics.Raycast(player.position, player.forward, out wallHit, placementDistance, wallLayer))
+        {
+            placementPosition = wallHit.point;
+            placementPosition += wallHit.normal * 0.1f;
+
+            if (wallHit.collider.bounds.size.y > 0)
+            {
+                placementPosition.y = wallHit.collider.bounds.center.y;
+            }
+        }
+        else
+        {
+            placementPosition.y = GetGroundHeight(placementPosition);
+        }
+
+        // **Cek apakah di atas ada roof**
+        RaycastHit roofHit;
+        if (Physics.Raycast(placementPosition + Vector3.up * 2f, Vector3.down, out roofHit, 4f, LayerMask.GetMask("Roof")))
+        {
+            placementPosition.y = roofHit.point.y - 0.1f; // Turunkan sedikit agar tidak bertumpuk
+        }
+
         ghostObject.transform.position = placementPosition;
         ghostObject.transform.rotation = ghostRotation;
 
