@@ -47,5 +47,5 @@ MonoBehaviour:
   PaintName: Brick 01
   PaintIcon: {fileID: 21300000, guid: 8dd7609ee1a512443890dde06d0f4419, type: 3}
   Price: 0
-  material: {fileID: 2100000, guid: 3d1a06be464c4f34a858b507405a7bb5, type: 2}
+  paintMaterial: {fileID: 2100000, guid: 3d1a06be464c4f34a858b507405a7bb5, type: 2}
   type: 1

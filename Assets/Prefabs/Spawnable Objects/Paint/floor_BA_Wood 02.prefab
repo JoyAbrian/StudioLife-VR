@@ -47,4 +47,5 @@ MonoBehaviour:
   PaintName: Wood 01
   PaintIcon: {fileID: 21300000, guid: 1e35efa19b4ddf8499dda812be004bda, type: 3}
   Price: 0
-  material: {fileID: 2100000, guid: 26f1b36be16f30d409f9ab1a7d20a8a5, type: 2}
+  paintMaterial: {fileID: 2100000, guid: 26f1b36be16f30d409f9ab1a7d20a8a5, type: 2}
+  type: 0

@@ -109,11 +109,10 @@ public class FurniturePlacer : MonoBehaviour
             placementPosition.y = GetGroundHeight(placementPosition);
         }
 
-        // **Cek apakah di atas ada roof**
         RaycastHit roofHit;
         if (Physics.Raycast(placementPosition + Vector3.up * 2f, Vector3.down, out roofHit, 4f, LayerMask.GetMask("Roof")))
         {
-            placementPosition.y = roofHit.point.y - 0.1f; // Turunkan sedikit agar tidak bertumpuk
+            placementPosition.y = roofHit.point.y - 0.1f;
         }
 
         ghostObject.transform.position = placementPosition;

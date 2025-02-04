@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 public class PaintMenuManager : MonoBehaviour
 {
+    public FloorPainter floorPaintManager;
     [System.Serializable]
     public class PaintCategory
     {
@@ -55,7 +56,13 @@ public class PaintMenuManager : MonoBehaviour
 
     private void SelectPaint(Paint paint)
     {
-        Debug.Log($"Selected paint: {paint.PaintName} - ${paint.Price:F2}");
-        // Implement logic to apply paint in the scene
+        if (paint.type == Paint.Type.Floor)
+        {
+            floorPaintManager.SelectFloorPaint(paint);
+        }
+        else
+        {
+            // Wall Paint Logic Goes Here >>>
+        }
     }
 }

@@ -47,5 +47,5 @@ MonoBehaviour:
   PaintName: Tile 01
   PaintIcon: {fileID: 21300000, guid: 7e7aa5438a94cfa4495730d98f5caa1a, type: 3}
   Price: 0
-  material: {fileID: 2100000, guid: aae18af11f5af9d43bb55831bba0ae8f, type: 2}
+  paintMaterial: {fileID: 2100000, guid: aae18af11f5af9d43bb55831bba0ae8f, type: 2}
   type: 1

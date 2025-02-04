@@ -47,5 +47,5 @@ MonoBehaviour:
   PaintName: Mesh Black
   PaintIcon: {fileID: 21300000, guid: b0e5b2762b2e6d34d97f08c6e56588d2, type: 3}
   Price: 0
-  material: {fileID: 2100000, guid: ca7a753fe0f234d419002eee417efd1e, type: 2}
+  paintMaterial: {fileID: 2100000, guid: ca7a753fe0f234d419002eee417efd1e, type: 2}
   type: 1

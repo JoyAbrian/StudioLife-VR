@@ -47,5 +47,5 @@ MonoBehaviour:
   PaintName: Antique
   PaintIcon: {fileID: 21300000, guid: 26b17aa57a70dfc4c900ee0f97fb8055, type: 3}
   Price: 0
-  material: {fileID: 2100000, guid: 7a2c0b18d3d81384a9318118e5c1c9ae, type: 2}
+  paintMaterial: {fileID: 2100000, guid: 7a2c0b18d3d81384a9318118e5c1c9ae, type: 2}
   type: 1

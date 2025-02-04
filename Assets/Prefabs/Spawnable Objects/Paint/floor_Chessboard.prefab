@@ -47,4 +47,5 @@ MonoBehaviour:
   PaintName: Chessboard
   PaintIcon: {fileID: 21300000, guid: 33a2f1c483d040c42b9da972738eddb7, type: 3}
   Price: 0
-  material: {fileID: 2100000, guid: acb2ae4532d2c0c4a827a97b50b5c353, type: 2}
+  paintMaterial: {fileID: 2100000, guid: acb2ae4532d2c0c4a827a97b50b5c353, type: 2}
+  type: 0
