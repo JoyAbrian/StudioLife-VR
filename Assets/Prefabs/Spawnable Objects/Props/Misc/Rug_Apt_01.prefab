@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8564915951976741474}
   - component: {fileID: 2444315809106756012}
   - component: {fileID: 4504926476385599492}
+  - component: {fileID: 4535904181512038023}
   m_Layer: 0
   m_Name: Rug_Apt_01
   m_TagString: Untagged
@@ -83,3 +84,21 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4535904181512038023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5871847615224283292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7c615754bba084086685ec2fb7af53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FurnitureName: Rug 01
+  Icon: {fileID: 21300000, guid: 2f1ceec68c89c624ca5c1f663dfb4501, type: 3}
+  Price: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 128

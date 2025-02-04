@@ -452,6 +452,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall Wine Rack_Apt_01_Filled Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 6563458759057749300, guid: 79b944a6d385a6444a7932d0dd93d9ce, type: 3}
+      propertyPath: Icon
+      value: 
+      objectReference: {fileID: 21300000, guid: e2fa44624d7a8a8419a592ba7f15f9aa, type: 3}
+    - target: {fileID: 6563458759057749300, guid: 79b944a6d385a6444a7932d0dd93d9ce, type: 3}
+      propertyPath: FurnitureName
+      value: Wine Rack Filled
+      objectReference: {fileID: 0}
     - target: {fileID: 7445300124664217794, guid: 79b944a6d385a6444a7932d0dd93d9ce, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -502,8 +510,34 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7445300124664217794, guid: 79b944a6d385a6444a7932d0dd93d9ce, type: 3}
       insertIndex: -1
       addedObject: {fileID: 194397436}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2874155572567143284, guid: 79b944a6d385a6444a7932d0dd93d9ce, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1185965360880029751}
   m_SourcePrefab: {fileID: 100100000, guid: 79b944a6d385a6444a7932d0dd93d9ce, type: 3}
+--- !u!1 &2348743984104464245 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2874155572567143284, guid: 79b944a6d385a6444a7932d0dd93d9ce, type: 3}
+  m_PrefabInstance: {fileID: 539138338866801665}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1185965360880029751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2348743984104464245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7c615754bba084086685ec2fb7af53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FurnitureName: 
+  Icon: {fileID: 0}
+  Price: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!4 &6928896269754264771 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7445300124664217794, guid: 79b944a6d385a6444a7932d0dd93d9ce, type: 3}

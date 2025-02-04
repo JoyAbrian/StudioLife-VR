@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5215493639422840319}
   - component: {fileID: 7443813105009547441}
   - component: {fileID: 8080231609100843506}
+  - component: {fileID: 4212986851416978595}
   m_Layer: 0
   m_Name: Lamp_Wall_Apt_01
   m_TagString: Untagged
@@ -106,6 +107,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.15450731, y: 0.8221196, z: 0.2952783}
   m_Center: {x: 0, y: -0.09298958, z: -0.14763916}
+--- !u!114 &4212986851416978595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5796306477278337937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7c615754bba084086685ec2fb7af53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FurnitureName: Lamp Wall 01
+  Icon: {fileID: 21300000, guid: 494f3a31c88c6104083e8dab612b616c, type: 3}
+  Price: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &6575486349802754965
 GameObject:
   m_ObjectHideFlags: 0

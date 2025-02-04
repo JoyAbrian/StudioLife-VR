@@ -57,6 +57,7 @@ public class FurnitureMenuManager : MonoBehaviour
 
     private void SelectFurniture(Furniture furniture)
     {
+        MenuManager.CloseAllMenus();
         FurniturePlacer.SetSelectedFurniture(furniture);
     }
 }

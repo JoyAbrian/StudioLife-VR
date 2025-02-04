@@ -11,53 +11,62 @@ public class MenuManager : MonoBehaviour
     public GameObject TextureMenu;
     public InputActionReference ToggleOpenTextureMenu;
 
-    private bool isFurnitureMenuVisible = false;
-    private bool isTextureMenuVisible = false;
+    [Header("Props Menu")]
+    public GameObject PropsMenu;
+    public InputActionReference ToggleOpenPropsMenu;
+
+    public static bool isFurnitureMenuVisible = false;
+    public static bool isTextureMenuVisible = false;
+    public static bool isPropsMenuVisible = false;
+
+    public static MenuManager Instance { get; private set; }
+
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     private void OnEnable()
     {
         ToggleOpenFurnitureMenu.action.performed += ToggleFurnitureMenu;
         ToggleOpenTextureMenu.action.performed += ToggleTextureMenu;
+        ToggleOpenPropsMenu.action.performed += TogglePropsMenu;
     }
 
     private void OnDisable()
     {
         ToggleOpenFurnitureMenu.action.performed -= ToggleFurnitureMenu;
         ToggleOpenTextureMenu.action.performed -= ToggleTextureMenu;
+        ToggleOpenPropsMenu.action.performed -= TogglePropsMenu;
     }
 
     private void ToggleFurnitureMenu(InputAction.CallbackContext context)
     {
-        if (isFurnitureMenuVisible)
-        {
-            isFurnitureMenuVisible = false;
-            UpdateMenuVisibility(FurnitureMenu, isFurnitureMenuVisible);
-        }
-        else
-        {
-            isTextureMenuVisible = false;
-            UpdateMenuVisibility(TextureMenu, isTextureMenuVisible);
-
-            isFurnitureMenuVisible = true;
-            UpdateMenuVisibility(FurnitureMenu, isFurnitureMenuVisible);
-        }
+        SetMenuVisibility(FurnitureMenu, ref isFurnitureMenuVisible);
     }
 
     private void ToggleTextureMenu(InputAction.CallbackContext context)
     {
-        if (isTextureMenuVisible)
-        {
-            isTextureMenuVisible = false;
-            UpdateMenuVisibility(TextureMenu, isTextureMenuVisible);
-        }
-        else
-        {
-            isFurnitureMenuVisible = false;
-            UpdateMenuVisibility(FurnitureMenu, isFurnitureMenuVisible);
+        SetMenuVisibility(TextureMenu, ref isTextureMenuVisible);
+    }
 
-            isTextureMenuVisible = true;
-            UpdateMenuVisibility(TextureMenu, isTextureMenuVisible);
-        }
+    private void TogglePropsMenu(InputAction.CallbackContext context)
+    {
+        SetMenuVisibility(PropsMenu, ref isPropsMenuVisible);
+    }
+
+    private void SetMenuVisibility(GameObject menu, ref bool menuVisibility)
+    {
+        isFurnitureMenuVisible = false;
+        isTextureMenuVisible = false;
+        isPropsMenuVisible = false;
+
+        UpdateMenuVisibility(FurnitureMenu, isFurnitureMenuVisible);
+        UpdateMenuVisibility(TextureMenu, isTextureMenuVisible);
+        UpdateMenuVisibility(PropsMenu, isPropsMenuVisible);
+
+        menuVisibility = !menuVisibility;
+        UpdateMenuVisibility(menu, menuVisibility);
     }
 
     private void UpdateMenuVisibility(GameObject menu, bool isVisible)
@@ -74,5 +83,18 @@ public class MenuManager : MonoBehaviour
             menu.transform.LookAt(Camera.main.transform);
             menu.transform.Rotate(0, 180, 0);
         }
+    }
+
+    public static void CloseAllMenus()
+    {
+        if (Instance == null) return;
+
+        isFurnitureMenuVisible = false;
+        isTextureMenuVisible = false;
+        isPropsMenuVisible = false;
+
+        Instance.UpdateMenuVisibility(Instance.FurnitureMenu, false);
+        Instance.UpdateMenuVisibility(Instance.TextureMenu, false);
+        Instance.UpdateMenuVisibility(Instance.PropsMenu, false);
     }
 }

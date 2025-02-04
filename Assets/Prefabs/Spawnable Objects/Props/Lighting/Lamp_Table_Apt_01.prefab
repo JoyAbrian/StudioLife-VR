@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8716701431950636395}
   - component: {fileID: 3951041620262619714}
   - component: {fileID: 3616493069824431458}
+  - component: {fileID: 422512035228902296}
   m_Layer: 0
   m_Name: Lamp_Table_Apt_01
   m_TagString: Untagged
@@ -109,6 +110,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.21245065, y: 0.558315, z: 0.21245068}
   m_Center: {x: 0, y: 0.2791575, z: -0.000000022351742}
+--- !u!114 &422512035228902296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117895243694500892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7c615754bba084086685ec2fb7af53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FurnitureName: Lamp Table 01
+  Icon: {fileID: 21300000, guid: af378b9d2b6ef0d4e905f56cba901a3e, type: 3}
+  Price: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 136
 --- !u!1 &481405169795443332
 GameObject:
   m_ObjectHideFlags: 0

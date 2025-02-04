@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5937058854382415556}
   - component: {fileID: 6450615772706596193}
   - component: {fileID: 3103538562027427190}
+  - component: {fileID: -7603289982883750311}
   m_Layer: 0
   m_Name: Monitor_Apt_01
   m_TagString: Untagged
@@ -106,6 +107,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.23145308, y: 0.68612796, z: 0.96159303}
   m_Center: {x: -0.000000007450581, y: 0.343064, z: -0.000000014901161}
+--- !u!114 &-7603289982883750311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167177008488376570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7c615754bba084086685ec2fb7af53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FurnitureName: Monitor
+  Icon: {fileID: 21300000, guid: 109e222bed2afa74ba0f4185a6f0263f, type: 3}
+  Price: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 136
 --- !u!1 &4155092160825153246
 GameObject:
   m_ObjectHideFlags: 0

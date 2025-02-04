@@ -186,7 +186,7 @@ MonoBehaviour:
   Price: 0
   groundLayer:
     serializedVersion: 2
-    m_Bits: 128
+    m_Bits: 64
 --- !u!65 &39704348717127569
 BoxCollider:
   m_ObjectHideFlags: 0

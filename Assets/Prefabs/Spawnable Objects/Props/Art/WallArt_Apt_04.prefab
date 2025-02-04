@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 5803382686471276770}
   - component: {fileID: 4957471355696570230}
   - component: {fileID: 6110654353315806922}
+  - component: {fileID: -4591920964588259945}
   m_Layer: 0
   m_Name: WallArt_Apt_04
   m_TagString: Untagged
@@ -190,6 +191,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.3818259, y: 1.7818134, z: 0.073990084}
   m_Center: {x: 0, y: 0, z: -0.036995042}
+--- !u!114 &-4591920964588259945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2671456082134650352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7c615754bba084086685ec2fb7af53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FurnitureName: Wall Art 04
+  Icon: {fileID: 21300000, guid: d2214c398a4dbc045ab1b5d46abf8c41, type: 3}
+  Price: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &4210581459351675120
 GameObject:
   m_ObjectHideFlags: 0

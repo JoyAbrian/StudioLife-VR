@@ -178,6 +178,7 @@ GameObject:
   - component: {fileID: 4487644345180733329}
   - component: {fileID: 1269577303695412064}
   - component: {fileID: 2370704712656641967}
+  - component: {fileID: -3384799285996378428}
   m_Layer: 0
   m_Name: SS_01
   m_TagString: Untagged
@@ -273,3 +274,21 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.23238191, y: 0.12773599, z: 0.4617962}
   m_Center: {x: -0.011590332, y: 0.07335327, z: 0}
+--- !u!114 &-3384799285996378428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5792320505006346919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7c615754bba084086685ec2fb7af53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FurnitureName: Lighting 01
+  Icon: {fileID: 21300000, guid: 90de4b35f9bc99440aa29641e0f967e3, type: 3}
+  Price: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 136

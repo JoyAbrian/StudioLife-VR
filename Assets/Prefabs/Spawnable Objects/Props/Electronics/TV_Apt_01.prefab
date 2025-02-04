@@ -178,6 +178,7 @@ GameObject:
   - component: {fileID: 6040610799573063317}
   - component: {fileID: 1984632464058045902}
   - component: {fileID: 3612929411495994555}
+  - component: {fileID: -1834092899825221394}
   m_Layer: 0
   m_Name: TV_Apt_01
   m_TagString: Untagged
@@ -273,3 +274,21 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: -0.15, y: 1.568917, z: 2.6430218}
   m_Center: {x: 0.027278306, y: 0, z: 0}
+--- !u!114 &-1834092899825221394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8890821166399119553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7c615754bba084086685ec2fb7af53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FurnitureName: TV
+  Icon: {fileID: 21300000, guid: 97b63b782d7cd89419e0abed98430969, type: 3}
+  Price: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 136

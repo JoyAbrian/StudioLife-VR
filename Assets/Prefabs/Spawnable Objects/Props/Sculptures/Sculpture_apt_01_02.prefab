@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4819301098079367785}
   - component: {fileID: 4819301098079367784}
   - component: {fileID: 4007426982113948024}
+  - component: {fileID: 7403973989093081856}
   m_Layer: 0
   m_Name: Sculpture_apt_01_02
   m_TagString: Untagged
@@ -106,6 +107,24 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.4061743, y: 1.19, z: 0.4061743}
   m_Center: {x: 0, y: 0.65, z: 0}
+--- !u!114 &7403973989093081856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4819301098079367790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed7c615754bba084086685ec2fb7af53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FurnitureName: Sculpture Type 1 02
+  Icon: {fileID: 21300000, guid: 805c1b0980141f94784c118f7d665a70, type: 3}
+  Price: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 136
 --- !u!1 &4819301098622685220
 GameObject:
   m_ObjectHideFlags: 0
