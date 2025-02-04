@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.EventSystems;
+using System.Collections;
 
 public class FurniturePlacer : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class FurniturePlacer : MonoBehaviour
     public Material ghostMaterial;
     public Material failMaterial;
     public InputActionReference placeFurnitureAction;
+    public InputActionReference rotateFurnitureAction;
 
     private LayerMask groundLayer;
     private LayerMask furnitureLayer;
@@ -18,17 +20,24 @@ public class FurniturePlacer : MonoBehaviour
     private GameObject ghostObject;
     private Collider ghostCollider;
     private bool canPlace = true;
+    private Quaternion ghostRotation = Quaternion.identity;
 
     private void OnEnable()
     {
         placeFurnitureAction.action.performed += OnPlaceFurniture;
         placeFurnitureAction.action.Enable();
+
+        rotateFurnitureAction.action.performed += OnRotateFurniture;
+        rotateFurnitureAction.action.Enable();
     }
 
     private void OnDisable()
     {
         placeFurnitureAction.action.performed -= OnPlaceFurniture;
         placeFurnitureAction.action.Disable();
+
+        rotateFurnitureAction.action.performed -= OnRotateFurniture;
+        rotateFurnitureAction.action.Disable();
     }
 
     public void SetSelectedFurniture(Furniture furniture)
@@ -38,6 +47,7 @@ public class FurniturePlacer : MonoBehaviour
         furnitureLayer = LayerMask.GetMask("Furniture");
         wallLayer = LayerMask.GetMask("Wall");
 
+        ghostRotation = Quaternion.identity;
         CreateGhost();
     }
 
@@ -52,7 +62,18 @@ public class FurniturePlacer : MonoBehaviour
 
         ghostObject = Instantiate(selectedFurniture.gameObject);
         ghostCollider = ghostObject.GetComponent<Collider>();
+
+        if (ghostCollider != null)
+        {
+            ghostCollider.enabled = false;
+        }
+
         SetGhostAppearance(ghostObject);
+
+        if (ghostCollider != null)
+        {
+            StartCoroutine(RecalculateCollider());
+        }
     }
 
     private void SetGhostAppearance(GameObject ghost)
@@ -73,6 +94,7 @@ public class FurniturePlacer : MonoBehaviour
         Vector3 placementPosition = player.position + player.forward * placementDistance;
         placementPosition.y = GetGroundHeight(placementPosition);
         ghostObject.transform.position = placementPosition;
+        ghostObject.transform.rotation = ghostRotation;
 
         canPlace = !IsColliding(ghostObject);
         UpdateGhostMaterial(canPlace);
@@ -127,13 +149,59 @@ public class FurniturePlacer : MonoBehaviour
         if (selectedFurniture == null || ghostObject == null || EventSystem.current.IsPointerOverGameObject()) return;
         if (!canPlace) return;
 
-        PlaceFurniture(ghostObject.transform.position);
+        PlaceFurniture(ghostObject.transform.position, ghostRotation);
     }
 
-    private void PlaceFurniture(Vector3 position)
+    private void PlaceFurniture(Vector3 position, Quaternion rotation)
     {
-        GameObject placedObject = Instantiate(selectedFurniture.gameObject, position, Quaternion.identity);
+        GameObject placedObject = Instantiate(selectedFurniture.gameObject, position, rotation);
+
+        Collider placedCollider = placedObject.GetComponent<Collider>();
+        if (placedCollider != null)
+        {
+            placedCollider.enabled = false;
+            StartCoroutine(EnableColliderAfterFrame(placedCollider));
+        }
+
         Destroy(ghostObject);
         selectedFurniture = null;
+    }
+
+    private IEnumerator EnableColliderAfterFrame(Collider collider)
+    {
+        yield return new WaitForEndOfFrame();
+        collider.enabled = true;
+    }
+
+    private void OnRotateFurniture(InputAction.CallbackContext context)
+    {
+        if (ghostObject == null) return;
+
+        ghostRotation *= Quaternion.Euler(0, 90, 0);
+        ghostObject.transform.rotation = ghostRotation;
+
+        if (ghostCollider != null)
+        {
+            StartCoroutine(RecalculateCollider());
+        }
+    }
+
+    private IEnumerator RecalculateCollider()
+    {
+        yield return null;
+
+        if (ghostCollider is BoxCollider boxCollider)
+        {
+            Bounds bounds = new Bounds(ghostObject.transform.position, Vector3.zero);
+            foreach (Renderer renderer in ghostObject.GetComponentsInChildren<Renderer>())
+            {
+                bounds.Encapsulate(renderer.bounds);
+            }
+
+            boxCollider.size = bounds.size;
+            boxCollider.center = ghostObject.transform.InverseTransformPoint(bounds.center);
+        }
+
+        ghostCollider.enabled = true;
     }
 }
