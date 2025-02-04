@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4abd8e22de3ecb4c97e83ed58843765, type: 3}
+  m_Name: Sounds SO
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MenuAmbience
+    volume: 1
+    mixer: {fileID: 0}
+    sounds:
+    - {fileID: 8300000, guid: c936ba4c246e5ee43852640af70d5dc3, type: 3}
+    - {fileID: 8300000, guid: 49de39595f3ca6e47927ecbd231fc258, type: 3}
+  - name: Ambience
+    volume: 1
+    mixer: {fileID: 0}
+    sounds:
+    - {fileID: 8300000, guid: 2155f18c53288b44293fb4056921f204, type: 3}
+    - {fileID: 8300000, guid: 452003ed101792e40b59bab52f653aed, type: 3}
+    - {fileID: 8300000, guid: c860f29a3cbbb074f8a7912a74c391dc, type: 3}
+  - name: Bought
+    volume: 1
+    mixer: {fileID: 0}
+    sounds:
+    - {fileID: 8300000, guid: 94f505165112f5242a2fab6b92d6818e, type: 3}
+    - {fileID: 8300000, guid: 260cff7f674a813429f9ca063a15cd49, type: 3}
+    - {fileID: 8300000, guid: 6ddd60781d22eab4a87e474dcaeffc99, type: 3}
+    - {fileID: 8300000, guid: 9f8b5137d253bce4b81725c81596045f, type: 3}
+    - {fileID: 8300000, guid: a664626c748f78a4091bb3e4c2e968be, type: 3}
+    - {fileID: 8300000, guid: 41ecf9b105f38054c9b902c8062993a1, type: 3}
+    - {fileID: 8300000, guid: 0056b8d79bc3dff4e91876c4570b1501, type: 3}
+  - name: Build
+    volume: 1
+    mixer: {fileID: 0}
+    sounds:
+    - {fileID: 8300000, guid: 6e45d8229b6179746b07c7e1afd8f4e1, type: 3}
+    - {fileID: 8300000, guid: 46648e13bf72772448d48450aee7cc3f, type: 3}
+    - {fileID: 8300000, guid: de2c52f2674685b4282d9f4b9744294c, type: 3}
+    - {fileID: 8300000, guid: 113ed0a9bfa52fe4a95615d4649ead5d, type: 3}
