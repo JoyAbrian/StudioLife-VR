@@ -183,7 +183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Bar Cabinet 02 Side
   Icon: {fileID: 21300000, guid: 87169d05bf9bfca418c32e7d5ddb0d71, type: 3}
-  Price: 0
+  Price: 20
   groundLayer:
     serializedVersion: 2
     m_Bits: 128

@@ -288,7 +288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Lighting Stand
   Icon: {fileID: 21300000, guid: ae54e14bc44162942981c6ac96f78c56, type: 3}
-  Price: 0
+  Price: 50
   groundLayer:
     serializedVersion: 2
     m_Bits: 136

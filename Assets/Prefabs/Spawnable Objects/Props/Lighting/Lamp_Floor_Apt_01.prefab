@@ -299,7 +299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Lamp Floor 01
   Icon: {fileID: 21300000, guid: 0e0b631f5524e0f4caf77f9fd6a0f7de, type: 3}
-  Price: 0
+  Price: 30
   groundLayer:
     serializedVersion: 2
     m_Bits: 128

@@ -100,7 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Table Side
   Icon: {fileID: 21300000, guid: b0dddbb7ec3718f45a4eea28325f30ba, type: 3}
-  Price: 0
+  Price: 20
   groundLayer:
     serializedVersion: 2
     m_Bits: 128

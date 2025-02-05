@@ -13,5 +13,14 @@ public class FurnitureDisplay : MonoBehaviour
         IconImage.sprite = furniture.Icon;
         NameText.text = furniture.FurnitureName;
         PriceText.text = $"${furniture.Price:F2}";
+
+        if (GlobalVariables.playerMoney < furniture.Price)
+        {
+            PriceText.color = Color.red;
+        }
+        else
+        {
+            PriceText.color = Color.green;
+        }
     }
 }

@@ -124,7 +124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Lamp Table 01
   Icon: {fileID: 21300000, guid: af378b9d2b6ef0d4e905f56cba901a3e, type: 3}
-  Price: 0
+  Price: 30
   groundLayer:
     serializedVersion: 2
     m_Bits: 136

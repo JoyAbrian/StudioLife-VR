@@ -457,6 +457,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: e2fa44624d7a8a8419a592ba7f15f9aa, type: 3}
     - target: {fileID: 6563458759057749300, guid: 79b944a6d385a6444a7932d0dd93d9ce, type: 3}
+      propertyPath: Price
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6563458759057749300, guid: 79b944a6d385a6444a7932d0dd93d9ce, type: 3}
       propertyPath: FurnitureName
       value: Wine Rack Filled
       objectReference: {fileID: 0}

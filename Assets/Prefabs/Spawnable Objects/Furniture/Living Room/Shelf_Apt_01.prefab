@@ -99,7 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Shelf
   Icon: {fileID: 21300000, guid: 23e161711072fd947b0b6ec0cb0d3273, type: 3}
-  Price: 0
+  Price: 20
   groundLayer:
     serializedVersion: 2
     m_Bits: 128

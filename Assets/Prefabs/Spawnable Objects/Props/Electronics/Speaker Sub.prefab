@@ -120,7 +120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Speaker
   Icon: {fileID: 21300000, guid: f00fb4eacfac7d7418f9eb71c1378aeb, type: 3}
-  Price: 0
+  Price: 50
   groundLayer:
     serializedVersion: 2
     m_Bits: 136

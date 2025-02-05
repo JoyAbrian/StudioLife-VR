@@ -291,7 +291,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Lamp Ceiling 04
   Icon: {fileID: 21300000, guid: 8202a9244b3712a4ba94d359df7f88c6, type: 3}
-  Price: 0
+  Price: 50
   groundLayer:
     serializedVersion: 2
     m_Bits: 256

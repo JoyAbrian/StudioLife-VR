@@ -183,7 +183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Table Dining
   Icon: {fileID: 21300000, guid: 799de8b2f75e156428ad251ae5d8ad78, type: 3}
-  Price: 0
+  Price: 20
   groundLayer:
     serializedVersion: 2
     m_Bits: 128

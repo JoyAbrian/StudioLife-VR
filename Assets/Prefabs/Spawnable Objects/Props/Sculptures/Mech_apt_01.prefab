@@ -122,7 +122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Mech
   Icon: {fileID: 21300000, guid: 9df918a2f3f2e1a4ab1a0b0d1439a5b5, type: 3}
-  Price: 0
+  Price: 10
   groundLayer:
     serializedVersion: 2
     m_Bits: 136

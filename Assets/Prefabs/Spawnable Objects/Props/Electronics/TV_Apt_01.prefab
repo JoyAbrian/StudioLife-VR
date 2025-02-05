@@ -288,7 +288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: TV
   Icon: {fileID: 21300000, guid: 97b63b782d7cd89419e0abed98430969, type: 3}
-  Price: 0
+  Price: 50
   groundLayer:
     serializedVersion: 2
     m_Bits: 64

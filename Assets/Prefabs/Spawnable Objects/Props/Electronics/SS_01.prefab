@@ -288,7 +288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Lighting 01
   Icon: {fileID: 21300000, guid: 90de4b35f9bc99440aa29641e0f967e3, type: 3}
-  Price: 0
+  Price: 50
   groundLayer:
     serializedVersion: 2
     m_Bits: 136

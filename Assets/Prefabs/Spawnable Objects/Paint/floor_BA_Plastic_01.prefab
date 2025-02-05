@@ -46,6 +46,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PaintName: Plastic
   PaintIcon: {fileID: 21300000, guid: 5fc0ffadcd4c090479b8745c276d1e4a, type: 3}
-  Price: 0
+  Price: 40
   paintMaterial: {fileID: 2100000, guid: 255352a35d6d72c4e8ee50bc826f7495, type: 2}
   type: 0

@@ -314,7 +314,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Mirror Plate Filled
   Icon: {fileID: 21300000, guid: 1e8c74c4b31c32f4c944c84166cbc198, type: 3}
-  Price: 0
+  Price: 15
   groundLayer:
     serializedVersion: 2
     m_Bits: 136

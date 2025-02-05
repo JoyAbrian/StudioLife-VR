@@ -205,7 +205,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Wall Art 03
   Icon: {fileID: 21300000, guid: 42afcdc620a9829488b2d6c70e39deab, type: 3}
-  Price: 0
+  Price: 15
   groundLayer:
     serializedVersion: 2
     m_Bits: 64

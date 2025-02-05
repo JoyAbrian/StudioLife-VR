@@ -1065,7 +1065,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Vanity
   Icon: {fileID: 21300000, guid: 9e1cd8ed201678e4ea97f625d668079c, type: 3}
-  Price: 0
+  Price: 5
   groundLayer:
     serializedVersion: 2
     m_Bits: 128

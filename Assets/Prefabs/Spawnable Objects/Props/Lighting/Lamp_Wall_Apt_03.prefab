@@ -647,7 +647,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Lamp Wall 03
   Icon: {fileID: 21300000, guid: 31a530e141e527541be304439d6c0f58, type: 3}
-  Price: 0
+  Price: 50
   groundLayer:
     serializedVersion: 2
     m_Bits: 64

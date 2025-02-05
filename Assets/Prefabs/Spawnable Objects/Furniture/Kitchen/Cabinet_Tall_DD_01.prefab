@@ -101,7 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Cabinet Tall
   Icon: {fileID: 21300000, guid: 4cbd6ea5e60328241b679d538c08bdc1, type: 3}
-  Price: 0
+  Price: 25
   groundLayer:
     serializedVersion: 2
     m_Bits: 128

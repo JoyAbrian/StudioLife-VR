@@ -57,6 +57,11 @@ public class FurnitureMenuManager : MonoBehaviour
 
     private void SelectFurniture(Furniture furniture)
     {
+        if (GlobalVariables.playerMoney < furniture.Price) 
+        {
+            SoundManager.PlaySound(SoundType.Forbid, volume: 1f);
+            return;
+        }
         MenuManager.CloseAllMenus();
         FurniturePlacer.SetSelectedFurniture(furniture);
     }

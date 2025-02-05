@@ -368,6 +368,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 3dff2f986ee9ece45a632d66123c575f, type: 3}
     - target: {fileID: -4106910704053476091, guid: 85e9540880fc7824c8aff31eb2cc6498, type: 3}
+      propertyPath: Price
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: -4106910704053476091, guid: 85e9540880fc7824c8aff31eb2cc6498, type: 3}
       propertyPath: FurnitureName
       value: Table Computer Setup
       objectReference: {fileID: 0}

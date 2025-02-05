@@ -122,7 +122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Bench
   Icon: {fileID: 21300000, guid: b2dec734d21c61a4db5966b7e37d1b9f, type: 3}
-  Price: 0
+  Price: 20
   groundLayer:
     serializedVersion: 2
     m_Bits: 128

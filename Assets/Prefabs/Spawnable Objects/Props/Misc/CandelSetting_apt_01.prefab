@@ -458,7 +458,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Candle
   Icon: {fileID: 21300000, guid: f5146b7aaa9cd064993709470184f94e, type: 3}
-  Price: 0
+  Price: 5
   groundLayer:
     serializedVersion: 2
     m_Bits: 136

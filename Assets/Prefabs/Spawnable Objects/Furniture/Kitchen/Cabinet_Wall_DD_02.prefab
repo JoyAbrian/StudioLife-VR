@@ -184,7 +184,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Cabinet Wall 02
   Icon: {fileID: 21300000, guid: 78d797bbbec76a64f900fc2655050a74, type: 3}
-  Price: 0
+  Price: 5
   groundLayer:
     serializedVersion: 2
     m_Bits: 64

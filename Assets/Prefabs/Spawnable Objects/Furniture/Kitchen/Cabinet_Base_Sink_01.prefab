@@ -652,7 +652,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Cabinet Sink
   Icon: {fileID: 21300000, guid: 521fd38d31b148448abbfe27abc60596, type: 3}
-  Price: 0
+  Price: 15
   groundLayer:
     serializedVersion: 2
     m_Bits: 128

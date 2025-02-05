@@ -121,7 +121,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Sculpture Type 1 01
   Icon: {fileID: 21300000, guid: aee50610e18ebcf4ab2be738fdd27011, type: 3}
-  Price: 0
+  Price: 10
   groundLayer:
     serializedVersion: 2
     m_Bits: 136

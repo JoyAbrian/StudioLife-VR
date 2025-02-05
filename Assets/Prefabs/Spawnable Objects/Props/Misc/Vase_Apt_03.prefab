@@ -123,7 +123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Vase 02
   Icon: {fileID: 21300000, guid: d78b61fffdee67348b304b31ef6871d7, type: 3}
-  Price: 0
+  Price: 15
   groundLayer:
     serializedVersion: 2
     m_Bits: 136

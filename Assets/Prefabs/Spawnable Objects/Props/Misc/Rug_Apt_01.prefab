@@ -98,7 +98,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Rug 01
   Icon: {fileID: 21300000, guid: 2f1ceec68c89c624ca5c1f663dfb4501, type: 3}
-  Price: 0
+  Price: 5
   groundLayer:
     serializedVersion: 2
     m_Bits: 128

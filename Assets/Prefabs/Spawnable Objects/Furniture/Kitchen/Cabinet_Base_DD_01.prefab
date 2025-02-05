@@ -603,7 +603,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Cabinet 01
   Icon: {fileID: 21300000, guid: c12091bcb16767a4289755af7e55224f, type: 3}
-  Price: 0
+  Price: 10
   groundLayer:
     serializedVersion: 2
     m_Bits: 128

@@ -10,6 +10,7 @@ public enum SoundType
     Ambience,
     Build,
     Bought,
+    Forbid,
 }
 
 [RequireComponent(typeof(AudioSource)), ExecuteInEditMode]

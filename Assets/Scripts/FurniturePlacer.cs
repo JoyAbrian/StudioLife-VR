@@ -169,7 +169,11 @@ public class FurniturePlacer : MonoBehaviour
     private void OnPlaceFurniture(InputAction.CallbackContext context)
     {
         if (selectedFurniture == null || ghostObject == null || EventSystem.current.IsPointerOverGameObject()) return;
-        if (!canPlace) return;
+        if (!canPlace) 
+        {
+            SoundManager.PlaySound(SoundType.Forbid, volume: 1f);
+            return;
+        }
 
         PlaceFurniture(ghostObject.transform.position, ghostRotation);
     }
@@ -186,7 +190,11 @@ public class FurniturePlacer : MonoBehaviour
         }
 
         SoundManager.PlaySound(SoundType.Build, volume: 1f);
-        SoundManager.PlaySound(SoundType.Bought, volume: 0.8f);
+        if (GlobalVariables.gameMode != "FreeBuild") 
+        { 
+            GlobalVariables.playerMoney -= selectedFurniture.Price;
+            SoundManager.PlaySound(SoundType.Bought, volume: 0.8f);
+        }
 
         Destroy(ghostObject);
         selectedFurniture = null;

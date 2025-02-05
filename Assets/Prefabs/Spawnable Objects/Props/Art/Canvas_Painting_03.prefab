@@ -120,7 +120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Painting 03
   Icon: {fileID: 21300000, guid: 9dddf58caf0040d409024553946c8713, type: 3}
-  Price: 0
+  Price: 15
   groundLayer:
     serializedVersion: 2
     m_Bits: 64

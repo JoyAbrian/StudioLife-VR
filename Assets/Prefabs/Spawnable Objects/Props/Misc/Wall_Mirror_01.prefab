@@ -204,7 +204,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Mirror
   Icon: {fileID: 21300000, guid: 02bf071b43ccee340ba8c73336cac223, type: 3}
-  Price: 0
+  Price: 15
   groundLayer:
     serializedVersion: 2
     m_Bits: 64

@@ -122,7 +122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Toilet
   Icon: {fileID: 21300000, guid: 1adba917da2ed5d41b280e306eb3c277, type: 3}
-  Price: 0
+  Price: 10
   groundLayer:
     serializedVersion: 2
     m_Bits: 128

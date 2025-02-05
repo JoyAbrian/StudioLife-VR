@@ -46,6 +46,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PaintName: Building Tile
   PaintIcon: {fileID: 21300000, guid: be8b1a3f67ecf884a8add251deb1a807, type: 3}
-  Price: 0
+  Price: 40
   paintMaterial: {fileID: 2100000, guid: b65d6f1427086d84f91a3153f6f82ffc, type: 2}
   type: 0

@@ -99,7 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Wallshelf 01
   Icon: {fileID: 21300000, guid: 129d45e5afd35494692a509826a335f5, type: 3}
-  Price: 0
+  Price: 5
   groundLayer:
     serializedVersion: 2
     m_Bits: 64

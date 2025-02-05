@@ -417,7 +417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Cabinet
   Icon: {fileID: 21300000, guid: 3efb76f7abfbc72459c3facee91cc121, type: 3}
-  Price: 1
+  Price: 10
   groundLayer:
     serializedVersion: 2
     m_Bits: 128

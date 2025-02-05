@@ -46,6 +46,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PaintName: Wood 03
   PaintIcon: {fileID: 21300000, guid: 0ace0aeb877084445bd0152d7957112d, type: 3}
-  Price: 0
+  Price: 40
   paintMaterial: {fileID: 2100000, guid: 049ac0e838cb3a342887cf48a2b06db4, type: 2}
   type: 0

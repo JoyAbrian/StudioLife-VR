@@ -120,7 +120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Canvas 04
   Icon: {fileID: 21300000, guid: 7a4c70801e15ee5459848aeffd2b7e9a, type: 3}
-  Price: 0
+  Price: 15
   groundLayer:
     serializedVersion: 2
     m_Bits: 64

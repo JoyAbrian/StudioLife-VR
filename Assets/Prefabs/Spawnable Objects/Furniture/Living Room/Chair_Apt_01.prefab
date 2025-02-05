@@ -100,7 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Chair
   Icon: {fileID: 21300000, guid: 9372ab7fa45a5ab4e9701f2cbb7c6eaf, type: 3}
-  Price: 0
+  Price: 10
   groundLayer:
     serializedVersion: 2
     m_Bits: 128

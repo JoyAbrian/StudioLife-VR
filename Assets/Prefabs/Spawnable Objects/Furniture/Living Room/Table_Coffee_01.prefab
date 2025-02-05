@@ -183,7 +183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Table Coffee
   Icon: {fileID: 21300000, guid: b73545dfe80b7cc49812a0d7bc1c1f07, type: 3}
-  Price: 0
+  Price: 5
   groundLayer:
     serializedVersion: 2
     m_Bits: 128

@@ -1,8 +1,11 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class MenuManager : MonoBehaviour
 {
+    public TextMeshProUGUI[] moneyTextList;
+
     [Header("Furniture Menu")]
     public GameObject FurnitureMenu;
     public InputActionReference ToggleOpenFurnitureMenu;
@@ -15,15 +18,26 @@ public class MenuManager : MonoBehaviour
     public GameObject PropsMenu;
     public InputActionReference ToggleOpenPropsMenu;
 
-    public static bool isFurnitureMenuVisible = false;
-    public static bool isTextureMenuVisible = false;
-    public static bool isPropsMenuVisible = false;
+    private GameObject currentOpenMenu = null;
 
     public static MenuManager Instance { get; private set; }
 
     private void Awake()
     {
         Instance = this;
+    }
+
+    private void Update()
+    {
+        if (GlobalVariables.gameMode == "Free Build")
+        {
+            return;
+        }
+
+        foreach (TextMeshProUGUI moneyText in moneyTextList)
+        {
+            moneyText.text = "Money : $" + GlobalVariables.playerMoney.ToString();
+        }
     }
 
     private void OnEnable()
@@ -42,59 +56,46 @@ public class MenuManager : MonoBehaviour
 
     private void ToggleFurnitureMenu(InputAction.CallbackContext context)
     {
-        SetMenuVisibility(FurnitureMenu, ref isFurnitureMenuVisible);
+        ToggleMenu(FurnitureMenu);
     }
 
     private void ToggleTextureMenu(InputAction.CallbackContext context)
     {
-        SetMenuVisibility(TextureMenu, ref isTextureMenuVisible);
+        ToggleMenu(TextureMenu);
     }
 
     private void TogglePropsMenu(InputAction.CallbackContext context)
     {
-        SetMenuVisibility(PropsMenu, ref isPropsMenuVisible);
+        ToggleMenu(PropsMenu);
     }
 
-    private void SetMenuVisibility(GameObject menu, ref bool menuVisibility)
+    private void ToggleMenu(GameObject menu)
     {
-        isFurnitureMenuVisible = false;
-        isTextureMenuVisible = false;
-        isPropsMenuVisible = false;
-
-        UpdateMenuVisibility(FurnitureMenu, isFurnitureMenuVisible);
-        UpdateMenuVisibility(TextureMenu, isTextureMenuVisible);
-        UpdateMenuVisibility(PropsMenu, isPropsMenuVisible);
-
-        menuVisibility = !menuVisibility;
-        UpdateMenuVisibility(menu, menuVisibility);
-    }
-
-    private void UpdateMenuVisibility(GameObject menu, bool isVisible)
-    {
-        if (menu == null) return;
-
-        menu.SetActive(isVisible);
-
-        if (isVisible)
+        if (menu == currentOpenMenu)
         {
-            Vector3 targetPosition = Camera.main.transform.position + Camera.main.transform.forward * 1.5f;
-            menu.transform.position = targetPosition;
-
-            menu.transform.LookAt(Camera.main.transform);
-            menu.transform.Rotate(0, 180, 0);
+            CloseAllMenus();
+            return;
         }
+
+        CloseAllMenus();
+
+        currentOpenMenu = menu;
+        menu.SetActive(true);
+
+        Vector3 targetPosition = Camera.main.transform.position + Camera.main.transform.forward * 1.5f;
+        menu.transform.position = targetPosition;
+        menu.transform.LookAt(Camera.main.transform);
+        menu.transform.Rotate(0, 180, 0);
     }
 
     public static void CloseAllMenus()
     {
         if (Instance == null) return;
 
-        isFurnitureMenuVisible = false;
-        isTextureMenuVisible = false;
-        isPropsMenuVisible = false;
-
-        Instance.UpdateMenuVisibility(Instance.FurnitureMenu, false);
-        Instance.UpdateMenuVisibility(Instance.TextureMenu, false);
-        Instance.UpdateMenuVisibility(Instance.PropsMenu, false);
+        if (Instance.currentOpenMenu != null)
+        {
+            Instance.currentOpenMenu.SetActive(false);
+            Instance.currentOpenMenu = null;
+        }
     }
 }

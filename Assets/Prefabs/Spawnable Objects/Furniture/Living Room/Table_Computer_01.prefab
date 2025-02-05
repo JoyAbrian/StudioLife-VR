@@ -624,7 +624,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Table Computer
   Icon: {fileID: 21300000, guid: a2ad623002ece6949a65391aad135dc6, type: 3}
-  Price: 0
+  Price: 10
   groundLayer:
     serializedVersion: 2
     m_Bits: 128

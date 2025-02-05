@@ -667,7 +667,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Bar Cabinet 02 Tower
   Icon: {fileID: 21300000, guid: 526cd1c1bb23ca64d816725ad51e1896, type: 3}
-  Price: 0
+  Price: 20
   groundLayer:
     serializedVersion: 2
     m_Bits: 128

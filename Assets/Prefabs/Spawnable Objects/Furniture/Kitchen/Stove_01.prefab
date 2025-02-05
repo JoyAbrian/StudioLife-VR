@@ -695,7 +695,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Stove
   Icon: {fileID: 21300000, guid: 8b1681daf4908ca41b3a6a119528c0c7, type: 3}
-  Price: 0
+  Price: 50
   groundLayer:
     serializedVersion: 2
     m_Bits: 128

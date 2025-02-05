@@ -1122,6 +1122,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 0785f539de6539245ad33114d325aacf, type: 3}
     - target: {fileID: 7877172514464874131, guid: 71546b2097e63004893a3528d003a956, type: 3}
+      propertyPath: Price
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 7877172514464874131, guid: 71546b2097e63004893a3528d003a956, type: 3}
       propertyPath: FurnitureName
       value: Bar Cabinet 01 Filled
       objectReference: {fileID: 0}

@@ -183,7 +183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Hamper
   Icon: {fileID: 21300000, guid: 94b532e7034d1ab43bcc3ae21884edae, type: 3}
-  Price: 0
+  Price: 5
   groundLayer:
     serializedVersion: 2
     m_Bits: 128

@@ -13,6 +13,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 0aaf74d4469f8f847aac359268882a4d, type: 3}
     - target: {fileID: -4001219524043917238, guid: 88eb65b4dea685a4cad7ad664104b001, type: 3}
+      propertyPath: Price
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: -4001219524043917238, guid: 88eb65b4dea685a4cad7ad664104b001, type: 3}
       propertyPath: FurnitureName
       value: Table Dining Setup
       objectReference: {fileID: 0}

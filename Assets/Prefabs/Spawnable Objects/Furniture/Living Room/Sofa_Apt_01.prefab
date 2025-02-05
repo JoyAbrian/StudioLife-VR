@@ -204,7 +204,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Sofa 01
   Icon: {fileID: 21300000, guid: d28e2da971a9b2444af04869efc0e62b, type: 3}
-  Price: 0
+  Price: 10
   groundLayer:
     serializedVersion: 2
     m_Bits: 128

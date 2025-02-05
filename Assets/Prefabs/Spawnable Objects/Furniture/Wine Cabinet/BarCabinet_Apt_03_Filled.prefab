@@ -1426,7 +1426,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Bar Cabinet 03 Filled
   Icon: {fileID: 21300000, guid: 283fcf2bdcad6f44492b9dce937d78d6, type: 3}
-  Price: 0
+  Price: 50
   groundLayer:
     serializedVersion: 2
     m_Bits: 128

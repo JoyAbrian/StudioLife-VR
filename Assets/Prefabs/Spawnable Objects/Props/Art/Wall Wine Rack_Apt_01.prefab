@@ -288,7 +288,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Wine Rack
   Icon: {fileID: 21300000, guid: a7bbe639e19a8ab42832e292af53988c, type: 3}
-  Price: 0
+  Price: 15
   groundLayer:
     serializedVersion: 2
     m_Bits: 64

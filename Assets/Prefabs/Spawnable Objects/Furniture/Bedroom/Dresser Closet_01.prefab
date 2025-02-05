@@ -687,7 +687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Dresser Closet
   Icon: {fileID: 21300000, guid: f228c051bbcc12e47bacc5ff31e306b7, type: 3}
-  Price: 0
+  Price: 15
   groundLayer:
     serializedVersion: 2
     m_Bits: 128

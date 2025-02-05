@@ -352,7 +352,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Table Media
   Icon: {fileID: 21300000, guid: c184ae53e3cfc544a83b084eab850d35, type: 3}
-  Price: 0
+  Price: 10
   groundLayer:
     serializedVersion: 2
     m_Bits: 128

@@ -603,7 +603,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Cabinet Wall Corner
   Icon: {fileID: 21300000, guid: 1ce0f0617d3f0014b8ec3d1b50491135, type: 3}
-  Price: 0
+  Price: 10
   groundLayer:
     serializedVersion: 2
     m_Bits: 128

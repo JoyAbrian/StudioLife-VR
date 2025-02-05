@@ -435,7 +435,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FurnitureName: Bar Cabinet 02 Base
   Icon: {fileID: 21300000, guid: 8cd7c42351e988c499b9aa8f62cafcc7, type: 3}
-  Price: 0
+  Price: 20
   groundLayer:
     serializedVersion: 2
     m_Bits: 128

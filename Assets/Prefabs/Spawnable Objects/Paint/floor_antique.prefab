@@ -46,6 +46,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PaintName: Antique
   PaintIcon: {fileID: 21300000, guid: 69e6945c0a5e32a44b30490e8bc6210d, type: 3}
-  Price: 0
+  Price: 40
   paintMaterial: {fileID: 2100000, guid: 442c595afc2c255469073c8558393850, type: 2}
   type: 0
