@@ -185,6 +185,9 @@ public class FurniturePlacer : MonoBehaviour
             StartCoroutine(EnableColliderAfterFrame(placedCollider));
         }
 
+        SoundManager.PlaySound(SoundType.Build, volume: 1f);
+        SoundManager.PlaySound(SoundType.Bought, volume: 0.8f);
+
         Destroy(ghostObject);
         selectedFurniture = null;
     }
