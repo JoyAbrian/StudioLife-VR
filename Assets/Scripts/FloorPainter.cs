@@ -9,7 +9,7 @@ public class FloorPainter : MonoBehaviour
 
     private List<Renderer> floorRenderers;
     private List<Material> originalMaterials;
-    private Paint selectedPaint;
+    public static Paint selectedPaint;
     private bool isPainting = false;
 
     public Paint SelectedPaint => selectedPaint;
@@ -26,7 +26,7 @@ public class FloorPainter : MonoBehaviour
         acceptAction.action.Disable();
     }
 
-    private void OnAcceptAction(UnityEngine.InputSystem.InputAction.CallbackContext context)
+    private void OnAcceptAction(InputAction.CallbackContext context)
     {
         if (isPainting && selectedPaint != null)
         {
@@ -43,8 +43,13 @@ public class FloorPainter : MonoBehaviour
         floorRenderers = new List<Renderer>();
         originalMaterials = new List<Material>();
 
-        var floorsInRoom = GameObject.FindGameObjectsWithTag("Floor");
-        foreach (var floor in floorsInRoom)
+        if (GlobalVariables.selectedRoomFloor == null || GlobalVariables.selectedRoomFloor.Length == 0)
+        {
+            Debug.LogWarning("No floors selected in GlobalVariables.selectedRoomFloor!");
+            return;
+        }
+
+        foreach (var floor in GlobalVariables.selectedRoomFloor)
         {
             var renderer = floor.GetComponent<Renderer>();
             if (renderer != null)
@@ -60,14 +65,17 @@ public class FloorPainter : MonoBehaviour
 
     private void ApplySelectedPaint(Paint selectedPaint)
     {
-        if (floorRenderers.Count > 0 && selectedPaint != null)
-        {
-            for (int i = 0; i < floorRenderers.Count; i++)
-            {
-                floorRenderers[i].material = selectedPaint.paintMaterial;
-            }
+        if (GlobalVariables.selectedRoomFloor == null || GlobalVariables.selectedRoomFloor.Length == 0) return;
 
-            isPainting = false;
+        foreach (var floor in GlobalVariables.selectedRoomFloor)
+        {
+            var renderer = floor.GetComponent<Renderer>();
+            if (renderer != null)
+            {
+                renderer.material = selectedPaint.paintMaterial;
+            }
         }
+
+        isPainting = false;
     }
 }

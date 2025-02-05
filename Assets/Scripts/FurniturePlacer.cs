@@ -16,7 +16,7 @@ public class FurniturePlacer : MonoBehaviour
     private LayerMask furnitureLayer;
     private LayerMask wallLayer;
 
-    private Furniture selectedFurniture;
+    public static Furniture selectedFurniture;
     private GameObject ghostObject;
     private Collider ghostCollider;
     private bool canPlace = true;
