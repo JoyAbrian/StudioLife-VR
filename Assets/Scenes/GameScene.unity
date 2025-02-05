@@ -168,11 +168,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2584858574694838523, guid: 71904640d8a05af4d930ad7fd8bfdf71, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.0368042
+      value: -0.033996582
       objectReference: {fileID: 0}
     - target: {fileID: 2584858574694838523, guid: 71904640d8a05af4d930ad7fd8bfdf71, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.0070056804
+      value: -0.009695225
       objectReference: {fileID: 0}
     - target: {fileID: 3545094320880879679, guid: 71904640d8a05af4d930ad7fd8bfdf71, type: 3}
       propertyPath: m_Pivot.x
@@ -880,11 +880,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5024762254798588819, guid: d4569983d678b0b43ae1cda545a28cad, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.03643799
+      value: -0.04486084
       objectReference: {fileID: 0}
     - target: {fileID: 5024762254798588819, guid: d4569983d678b0b43ae1cda545a28cad, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.0030055493
+      value: -0.013695368
       objectReference: {fileID: 0}
     - target: {fileID: 5110733271235561711, guid: d4569983d678b0b43ae1cda545a28cad, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1165,6 +1165,7 @@ GameObject:
   - component: {fileID: 2054776395}
   - component: {fileID: 2054776394}
   - component: {fileID: 2054776393}
+  - component: {fileID: 2054776396}
   m_Layer: 0
   m_Name: SoundManager
   m_TagString: Untagged
@@ -1323,6 +1324,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2054776396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2054776392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a167078949c223428cc52de7fda5667, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2097157128
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1397,11 +1410,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5637686140068818247, guid: e63a518a47ba1c947a5e6afbc9587c64, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.035095215
+      value: -0.010314941
       objectReference: {fileID: 0}
     - target: {fileID: 5637686140068818247, guid: e63a518a47ba1c947a5e6afbc9587c64, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.008606136
+      value: -0.0021136883
       objectReference: {fileID: 0}
     - target: {fileID: 5640147997364637506, guid: e63a518a47ba1c947a5e6afbc9587c64, type: 3}
       propertyPath: m_AnchorMax.x
